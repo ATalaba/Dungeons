@@ -6,7 +6,7 @@ default
 
 windows
 {
-	width = 1080;
+	width = 1016;
 	height = 720;
 	windowed = true;
 	vsync = true;

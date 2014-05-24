@@ -24,16 +24,16 @@ void run() {
 
 void ETHCallback_Player(ETHEntity@ thisEntity) {
 ETHInput@ input = GetInputHandle();
-	if (input.KeyDown(K_W) and thisEntity.GetPositionY() > 150) {
+	if ((input.KeyDown(K_W) or input.KeyDown(K_UP)) and thisEntity.GetPositionY() > 150) {
 		thisEntity.AddToPositionY(-5.0);
 	}
-	if (input.KeyDown(K_S) and thisEntity.GetPositionY() < 660) {
+	if ((input.KeyDown(K_S) or input.KeyDown(K_DOWN)) and thisEntity.GetPositionY() < 660) {
 		thisEntity.AddToPositionY(5.0);
 	}
-	if (input.KeyDown(K_A) and thisEntity.GetPositionX() > 160) {
+	if ((input.KeyDown(K_A) or input.KeyDown(K_LEFT)) and thisEntity.GetPositionX() > 160) {
 		thisEntity.AddToPositionX(-5.0);
 	}
-	if (input.KeyDown(K_D) and thisEntity.GetPositionX() < 920) {
+	if ((input.KeyDown(K_D) or input.KeyDown(K_RIGHT)) and thisEntity.GetPositionX() < 920) {
 		thisEntity.AddToPositionX(5.0);
 	}
 }

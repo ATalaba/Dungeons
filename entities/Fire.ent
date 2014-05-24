@@ -5,7 +5,7 @@
         <Particles />
         <Light active="1" static="0" castShadows="0" range="256" haloBrightness="1" haloSize="64">
             <Position x="0" y="0" z="22" />
-            <Color r="1" g="0.2" b="0.2" />
+            <Color r="1" g="0.5" b="0" />
         </Light>
         <CustomData />
     </Entity>

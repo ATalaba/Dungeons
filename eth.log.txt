@@ -1,11 +1,12 @@
 [C:\Users\andre_000\Dungeons\eth.log.txt]
-Backbuffer created as 1080, 720 on default backbuffer mode
+Backbuffer created as 1016, 720 on default backbuffer mode
 ____________________________
 
 Loading game script from source-code: main.angelscript
 
 
-Compile time: 15 milliseconds
+Compile time: 0 milliseconds
+(Loaded) Wall.png
 (Loaded) blocks_ct2.png
-(Loaded) rockwall.png
+(Loaded) Fire.png
 (Loaded) Player.png
