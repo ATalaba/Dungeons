@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <Ethanon>
-    <Entity shape="0" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
+    <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="4">
         <Sprite>blocks_ct2.png</Sprite>
         <Particles />
         <CustomData />
