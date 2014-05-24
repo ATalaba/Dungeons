@@ -3,8 +3,8 @@
     <Entity shape="0" applyLight="0" castShadow="1" shadowScale="0" shadowLengthScale="1" shadowOpacity="1" type="2" static="0" blendMode="0">
         <Sprite>Player.png</Sprite>
         <Particles />
-        <Light active="1" static="0" castShadows="0" range="256" haloBrightness="1" haloSize="64">
-            <Position x="-35" y="-144" z="0" />
+        <Light active="1" static="0" castShadows="0" range="500" haloBrightness="1" haloSize="64">
+            <Position x="-35" y="-144" z="50" />
             <Color r="1" g="0.5" b="0" />
         </Light>
         <CustomData />
