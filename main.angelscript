@@ -4,7 +4,7 @@
 
 #include "eth_util.angelscript"
 
-//int id = 1;
+int id = 1;
 
 void main()
 {
@@ -16,7 +16,8 @@ void main()
 
 void setup() {
 	//id = AddEntity("Player.ent", vector3(540, 600, 0), 0);
-	AddEntity("Player.ent", vector3(540, 540, 20), 0);
+	id = AddEntity("Player.ent", vector3(540, 540, 20), 0);
+	SeekEntity(id).Scale(vector2(0.5f,0.5f));
 }
 
 void run() {
