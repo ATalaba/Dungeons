@@ -1,0 +1,8 @@
+[C:\Users\andre_000\Desktop\Dungeon\eth.log.txt]
+Backbuffer created as 1080, 720 on default backbuffer mode
+____________________________
+
+Loading game script from source-code: main.angelscript
+
+
+Compile time: 16 milliseconds
