@@ -285,19 +285,19 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="121" spriteFrame="0">
-            <EntityName>Fire.ent</EntityName>
-            <Position x="835" y="69" z="0" angle="0" />
-            <Entity>
-                <FileName>Fire.ent</FileName>
-                <CustomData />
-            </Entity>
-        </Entity>
         <Entity id="153" spriteFrame="0">
             <EntityName>Floor.ent</EntityName>
             <Position x="512" y="64" z="0" angle="0" />
             <Entity>
                 <FileName>Floor.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="240" spriteFrame="0">
+            <EntityName>Fire2.ent</EntityName>
+            <Position x="811" y="88" z="0" angle="0" />
+            <Entity>
+                <FileName>Fire2.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
@@ -669,6 +669,14 @@
                 <CustomData />
             </Entity>
         </Entity>
+        <Entity id="239" spriteFrame="0">
+            <EntityName>Fire2.ent</EntityName>
+            <Position x="240" y="91" z="10" angle="0" />
+            <Entity>
+                <FileName>Fire2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="1" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
             <Position x="32" y="32" z="0" angle="0" />
@@ -767,7 +775,7 @@
         </Entity>
         <Entity id="35" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
-            <Position x="352" y="96" z="0" angle="0" />
+            <Position x="353" y="97" z="0" angle="0" />
             <Entity>
                 <FileName>Wall.ent</FileName>
                 <CustomData />
@@ -946,14 +954,6 @@
             <Position x="192" y="448" z="0" angle="0" />
             <Entity>
                 <FileName>Floor.ent</FileName>
-                <CustomData />
-            </Entity>
-        </Entity>
-        <Entity id="120" spriteFrame="0">
-            <EntityName>Fire.ent</EntityName>
-            <Position x="192" y="67" z="0" angle="0" />
-            <Entity>
-                <FileName>Fire.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
