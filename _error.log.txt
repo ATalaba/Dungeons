@@ -19,16 +19,9 @@ Couldn't find the entity to delete: ID326
 Couldn't find the entity to delete: ID411
 Couldn't find the entity to delete: ID584
 Couldn't find the entity to delete: ID583
-Couldn't find the entity to delete: ID589
-Couldn't find the entity to delete: ID584
-Couldn't find the entity to delete: ID583
-Couldn't find the entity to delete: ID589
-Couldn't find the entity to delete: ID584
-Couldn't find the entity to delete: ID583
 Couldn't find the entity to delete: ID586
 Couldn't find the entity to delete: ID585
 Couldn't find the entity to delete: ID589
-ETHScene::LoadFromFile: file not found (C:\Users\andre_000\Dungeons\scenes\Ninth.esc)
 Couldn't find the entity to delete: ID505
 Couldn't find the entity to delete: ID504
 Couldn't find the entity to delete: ID508

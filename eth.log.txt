@@ -22,7 +22,7 @@ Loading game script from source-code: main.angelscript
 
 [WARN ] main.angelscript, line 172: Signed/Unsigned mismatch
 
-Compile time: 47 milliseconds
+Compile time: 62 milliseconds
 (Loaded) door.png
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
@@ -30,15 +30,15 @@ Compile time: 47 milliseconds
 (Loaded) scroll.png
 (Loaded) Player.png
 (Loaded) song.mp3
+(Loaded) PlayerForward2.png
 (Loaded) PlayerForward3.png
 (Loaded) PlayerForward1.png
-(Loaded) PlayerForward2.png
-(Loaded) PlayerRight1.png
 (Loaded) PlayerRight2.png
 (Loaded) PlayerRight3.png
+(Loaded) PlayerRight1.png
+(Loaded) PlayerLeft2.png
 (Loaded) PlayerLeft3.png
 (Loaded) PlayerLeft1.png
-(Loaded) PlayerLeft2.png
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
@@ -47,11 +47,10 @@ Compile time: 47 milliseconds
 (Loaded) scroll.png
 Couldn't find the entity to delete: ID326
 (Loaded) Player.png
-(Loaded) PlayerForward1.png
-(Loaded) PlayerLeft1.png
 (Loaded) PlayerForward2.png
 (Loaded) PlayerForward3.png
 (Loaded) PlayerRight3.png
+(Loaded) PlayerForward1.png
 (Loaded) PlayerRight1.png
 (Loaded) PlayerRight2.png
 (Loaded) Wall.png
@@ -64,10 +63,11 @@ Couldn't find the entity to delete: ID532
 Couldn't find the entity to delete: ID531
 (Loaded) Player.png
 (Loaded) PlayerForward1.png
-(Loaded) PlayerForward2.png
-(Loaded) PlayerForward3.png
 (Loaded) PlayerLeft1.png
+(Loaded) PlayerForward2.png
 (Loaded) PlayerLeft2.png
+(Loaded) PlayerForward3.png
+(Loaded) PlayerLeft3.png
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
@@ -77,11 +77,12 @@ Couldn't find the entity to delete: ID505
 Couldn't find the entity to delete: ID508
 Couldn't find the entity to delete: ID506
 (Loaded) Player.png
-(Loaded) PlayerForward3.png
 (Loaded) PlayerForward1.png
 (Loaded) PlayerForward2.png
+(Loaded) PlayerForward3.png
+(Loaded) PlayerRight3.png
+(Loaded) PlayerLeft2.png
 (Loaded) PlayerLeft3.png
-(Loaded) PlayerLeft1.png
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
@@ -95,11 +96,10 @@ Couldn't find the entity to delete: ID588
 (Loaded) PlayerForward1.png
 (Loaded) PlayerForward2.png
 (Loaded) PlayerForward3.png
-(Loaded) PlayerLeft2.png
-(Loaded) PlayerLeft3.png
 (Loaded) PlayerBack2.png
 (Loaded) PlayerBack3.png
 (Loaded) PlayerBack1.png
+(Loaded) PlayerLeft2.png
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
@@ -107,14 +107,13 @@ Couldn't find the entity to delete: ID588
 (Loaded) door.png
 Couldn't find the entity to delete: ID533
 (Loaded) Player.png
-(Loaded) PlayerBack1.png
-(Loaded) PlayerBack2.png
-(Loaded) PlayerLeft2.png
+(Loaded) PlayerBack3.png
 (Loaded) PlayerLeft3.png
-(Loaded) PlayerForward3.png
 (Loaded) PlayerForward1.png
 (Loaded) PlayerLeft1.png
 (Loaded) PlayerForward2.png
+(Loaded) PlayerLeft2.png
+(Loaded) PlayerForward3.png
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
@@ -125,14 +124,11 @@ Couldn't find the entity to delete: ID586
 Couldn't find the entity to delete: ID590
 Couldn't find the entity to delete: ID588
 (Loaded) Player.png
-(Loaded) PlayerForward2.png
 (Loaded) PlayerForward3.png
 (Loaded) PlayerForward1.png
-(Loaded) Scroll5.png
+(Loaded) PlayerForward2.png
 (Loaded) PlayerRight3.png
 (Loaded) PlayerRight1.png
-(Loaded) PlayerRight2.png
-(Loaded) PlayerLeft1.png
 (Loaded) PlayerLeft2.png
 (Loaded) PlayerLeft3.png
 (Loaded) Wall.png
@@ -150,81 +146,6 @@ Couldn't find the entity to delete: ID411
 (Loaded) PlayerRight3.png
 (Loaded) PlayerRight1.png
 (Loaded) PlayerRight2.png
-(Loaded) PlayerLeft2.png
-(Loaded) PlayerLeft3.png
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) guardian1.png
-(Loaded) door.png
-Couldn't find the entity to delete: ID584
-Couldn't find the entity to delete: ID583
-(Loaded) Player.png
-(Loaded) PlayerForward2.png
-(Loaded) PlayerForward3.png
-(Loaded) PlayerForward1.png
-(Loaded) PlayerRight3.png
-(Loaded) PlayerRight1.png
-(Loaded) PlayerLeft1.png
-(Loaded) PlayerLeft2.png
-(Loaded) PlayerLeft3.png
-(Loaded) PlayerRight2.png
-(Loaded) PlayerBack1.png
-(Loaded) PlayerBack2.png
-(Loaded) PlayerBack3.png
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) guardian1.png
-(Loaded) door.png
-(Loaded) fire.dds
-(Loaded) scroll.png
-Couldn't find the entity to delete: ID589
-(Loaded) Player.png
-(Loaded) PlayerBack3.png
-(Loaded) PlayerBack1.png
-(Loaded) PlayerForward2.png
-(Loaded) PlayerForward3.png
-(Loaded) PlayerForward1.png
-(Loaded) PlayerRight1.png
-(Loaded) PlayerRight2.png
-(Loaded) PlayerRight3.png
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) guardian1.png
-(Loaded) door.png
-Couldn't find the entity to delete: ID584
-Couldn't find the entity to delete: ID583
-(Loaded) Player.png
-(Loaded) PlayerForward1.png
-(Loaded) PlayerForward2.png
-(Loaded) PlayerForward3.png
-(Loaded) PlayerBack2.png
-(Loaded) PlayerBack3.png
-(Loaded) PlayerBack1.png
-(Loaded) PlayerLeft3.png
-(Loaded) PlayerLeft1.png
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) guardian1.png
-(Loaded) door.png
-(Loaded) fire.dds
-(Loaded) scroll.png
-Couldn't find the entity to delete: ID589
-(Loaded) Player.png
-(Loaded) PlayerBack1.png
-(Loaded) PlayerLeft1.png
-(Loaded) PlayerBack2.png
-(Loaded) PlayerLeft2.png
-(Loaded) PlayerBack3.png
-(Loaded) PlayerLeft3.png
-(Loaded) PlayerForward1.png
-(Loaded) PlayerForward2.png
-(Loaded) PlayerForward3.png
-(Loaded) PlayerRight1.png
-(Loaded) PlayerRight2.png
-(Loaded) Scroll6.png
-(Loaded) PlayerRight3.png
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
@@ -236,6 +157,8 @@ Couldn't find the entity to delete: ID583
 (Loaded) PlayerForward3.png
 (Loaded) PlayerForward1.png
 (Loaded) PlayerForward2.png
+(Loaded) PlayerLeft1.png
+(Loaded) PlayerLeft2.png
 (Loaded) PlayerRight3.png
 (Loaded) PlayerRight1.png
 (Loaded) PlayerRight2.png
@@ -248,16 +171,19 @@ Couldn't find the entity to delete: ID586
 Couldn't find the entity to delete: ID585
 Couldn't find the entity to delete: ID589
 (Loaded) Player.png
-(Loaded) PlayerForward1.png
 (Loaded) PlayerForward2.png
 (Loaded) PlayerForward3.png
-(Loaded) PlayerLeft2.png
-(Loaded) PlayerLeft3.png
+(Loaded) PlayerForward1.png
 (Loaded) PlayerLeft1.png
+(Loaded) PlayerLeft2.png
+(Loaded) PlayerRight2.png
 (Loaded) PlayerRight3.png
 (Loaded) PlayerRight1.png
-(Loaded) PlayerRight2.png
-ETHScene::LoadFromFile: file not found (C:\Users\andre_000\Dungeons\scenes\Ninth.esc)
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) guardian1.png
+(Loaded) door.png
 Couldn't find the entity to delete: ID505
 Couldn't find the entity to delete: ID504
 Couldn't find the entity to delete: ID508
@@ -266,12 +192,5 @@ Couldn't find the entity to delete: ID506
 (Loaded) PlayerForward2.png
 (Loaded) PlayerForward3.png
 (Loaded) PlayerForward1.png
-(Loaded) PlayerBack3.png
-(Loaded) PlayerBack1.png
-(Loaded) PlayerBack2.png
 (Loaded) PlayerLeft2.png
 (Loaded) PlayerLeft3.png
-(Loaded) PlayerRight3.png
-(Loaded) PlayerRight1.png
-(Loaded) PlayerLeft1.png
-(Loaded) PlayerRight2.png
