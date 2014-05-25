@@ -15,6 +15,7 @@ bool musicCheck = false;
 int Moneys = 0;
 bool gold1 = false;
 bool gold2 = false;
+int monsterDist = 5;
 
 void main()
 {
@@ -25,7 +26,11 @@ void main()
 }
 
 void setup() {
-	id = AddEntity("Player.ent", vector3(540, 600, 20), 0);
+	if(monsterDist > 0) {
+		id = AddEntity("Player.ent", vector3(540, 600, 20), 0);
+	} else {
+		LoadScene("scenes\\Dead.esc", "setup", "run");
+	}
 	//SeekEntity(id).Scale(vector2(0.5f,0.5f));
 	/*ETHEntity@ door = SeekEntity("door.ent");
 	Doors.Insert(door);*/
@@ -87,14 +92,13 @@ ETHInput@ input = GetInputHandle();
 		for (int i = 0; i < Doors.Size(); i++) {
 			if ((thisEntity.GetPositionY() <= 155 or thisEntity.GetPositionY() > 655) and distance(thisEntity.GetPositionXY(), Doors[i].GetPositionXY()) <= 150) {
 				if (Doors[i].GetInt("Unlocked") == 0) {
+
 					LoadScene("scenes\\" + Doors[i].GetString("Stage") + ".esc", "setup", "run");
-					/*
-					if((Doors[i].GetString("Stage") == "ThirdB" and gold1) or (Doors[i].GetString("Stage") == "FourthA" and gold2)) {
-						print("In the if");
-						DeleteEntity(SeekEntity("coins.ent"));
+
+					if(thisEntity.GetPositionY() > 655) {
+						monsterDist--;
 					}
-					*/
-					
+	 
 					for (int q = 0; q < Doors.Size(); q++) {
 						DeleteEntity(Doors[q]);
 					}
