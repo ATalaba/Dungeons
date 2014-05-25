@@ -286,7 +286,7 @@
                     <Variable>
                         <Type>string</Type>
                         <Name>Message</Name>
-                        <Value>Go on the path furthest to the right. Always the right.</Value>
+                        <Value>Go on the path furthest to the left. Always the left.</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -316,6 +316,11 @@
                         <Name>Stage</Name>
                         <Value>Fourth</Value>
                     </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
+                    </Variable>
                 </CustomData>
             </Entity>
         </Entity>
@@ -329,6 +334,11 @@
                         <Type>string</Type>
                         <Name>Stage</Name>
                         <Value>ThirdB</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -511,6 +521,11 @@
                         <Type>string</Type>
                         <Name>Stage</Name>
                         <Value>Second</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -979,6 +994,11 @@
                         <Type>string</Type>
                         <Name>Stage</Name>
                         <Value>ThirdA</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
                     </Variable>
                 </CustomData>
             </Entity>

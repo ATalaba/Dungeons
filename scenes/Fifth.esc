@@ -308,6 +308,11 @@
                 <FileName>door.ent</FileName>
                 <CustomData>
                     <Variable>
+                        <Type>string</Type>
+                        <Name>Stage</Name>
+                        <Value>Sixth</Value>
+                    </Variable>
+                    <Variable>
                         <Type>int</Type>
                         <Name>Unlocked</Name>
                         <Value>0</Value>
@@ -320,7 +325,13 @@
             <Position x="520" y="449" z="0" angle="0" />
             <Entity>
                 <FileName>Scroll.ent</FileName>
-                <CustomData />
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>Name</Name>
+                        <Value>5</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="49" spriteFrame="0">

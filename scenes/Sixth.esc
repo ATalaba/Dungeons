@@ -302,6 +302,11 @@
                         <Name>Stage</Name>
                         <Value>SixthB</Value>
                     </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
+                    </Variable>
                 </CustomData>
             </Entity>
         </Entity>
@@ -315,6 +320,11 @@
                         <Type>string</Type>
                         <Name>Stage</Name>
                         <Value>Seventh</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -511,6 +521,11 @@
                         <Type>string</Type>
                         <Name>Stage</Name>
                         <Value>Fifth</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -979,6 +994,25 @@
                         <Type>string</Type>
                         <Name>Stage</Name>
                         <Value>SixthA</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="747" spriteFrame="0">
+            <EntityName>Scroll.ent</EntityName>
+            <Position x="510" y="435" z="0" angle="0" />
+            <Entity>
+                <FileName>Scroll.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>Name</Name>
+                        <Value>6</Value>
                     </Variable>
                 </CustomData>
             </Entity>

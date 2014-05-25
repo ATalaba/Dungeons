@@ -1,4 +1,5 @@
 [C:\Users\andre_000\Dungeons\_error.log.txt]
-[ERROR] main.angelscript, line 98: Unexpected end of file
+
+[ERROR] main.angelscript, line 83: 'r' is not declared
 ERROR - Failed while building module.
 ERROR - ETHEngine::StartEngine: no scene has been loaded.

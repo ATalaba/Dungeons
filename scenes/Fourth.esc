@@ -314,7 +314,7 @@
                     <Variable>
                         <Type>string</Type>
                         <Name>Stage</Name>
-                        <Value>Fifth</Value>
+                        <Value>FourthA</Value>
                     </Variable>
                     <Variable>
                         <Type>int</Type>
@@ -330,6 +330,11 @@
             <Entity>
                 <FileName>door.ent</FileName>
                 <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>Stage</Name>
+                        <Value>Second</Value>
+                    </Variable>
                     <Variable>
                         <Type>int</Type>
                         <Name>Unlocked</Name>
@@ -965,20 +970,6 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="502" spriteFrame="0" shadowZ="0">
-            <EntityName>guardian4.ent</EntityName>
-            <Position x="256" y="256" z="0" angle="0" />
-            <Entity>
-                <FileName>guardian4.ent</FileName>
-                <CustomData>
-                    <Variable>
-                        <Type>string</Type>
-                        <Name>Message</Name>
-                        <Value>Gold, gold! Give me gold if you want to pass!</Value>
-                    </Variable>
-                </CustomData>
-            </Entity>
-        </Entity>
         <Entity id="586" spriteFrame="0">
             <EntityName>door.ent</EntityName>
             <Position x="256" y="20" z="0" angle="0" />
@@ -988,12 +979,31 @@
                     <Variable>
                         <Type>string</Type>
                         <Name>Stage</Name>
-                        <Value>FourthA</Value>
+                        <Value>Fifth</Value>
                     </Variable>
                     <Variable>
                         <Type>int</Type>
                         <Name>Unlocked</Name>
                         <Value>1</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="669" spriteFrame="0" shadowZ="0">
+            <EntityName>guardian4.ent</EntityName>
+            <Position x="256" y="256" z="0" angle="0" />
+            <Entity>
+                <FileName>guardian4.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>Message</Name>
+                        <Value>Gold, gold! You have to give me gold if you want to pass!</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>MoneyGiven</Name>
+                        <Value>2</Value>
                     </Variable>
                 </CustomData>
             </Entity>

@@ -7,6 +7,12 @@
             <Position x="0" y="0" z="10" />
             <Color r="1" g="1" b="0" />
         </Light>
-        <CustomData />
+        <CustomData>
+            <Variable>
+                <Type>int</Type>
+                <Name>MoneyGiven</Name>
+                <Value>0</Value>
+            </Variable>
+        </CustomData>
     </Entity>
 </Ethanon>

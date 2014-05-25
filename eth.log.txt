@@ -4,92 +4,69 @@ ____________________________
 
 Loading game script from source-code: main.angelscript
 
-[INFO ] main.angelscript, line 40: Compiling void ETHCallback_Player(ETHEntity@)
+[INFO ] main.angelscript, line 42: Compiling void ETHCallback_Player(ETHEntity@)
 
-[WARN ] main.angelscript, line 61: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 63: Signed/Unsigned mismatch
 
-[WARN ] main.angelscript, line 65: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 67: Signed/Unsigned mismatch
 
-[WARN ] main.angelscript, line 77: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 79: Signed/Unsigned mismatch
 
-[WARN ] main.angelscript, line 82: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 86: Signed/Unsigned mismatch
 
-[WARN ] main.angelscript, line 89: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 91: Signed/Unsigned mismatch
+
+[WARN ] main.angelscript, line 98: Signed/Unsigned mismatch
 
 Compile time: 47 milliseconds
 (Loaded) door.png
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
-(Loaded) Player.png
-(Loaded) PlayerForward1.png
-(Loaded) PlayerForward2.png
-(Loaded) PlayerForward3.png
-(Loaded) PlayerLeft1.png
-(Loaded) PlayerLeft2.png
-(Loaded) PlayerLeft3.png
-1
-(Loaded) PlayerRight2.png
-1
-(Loaded) PlayerRight3.png
-1
-1
-1
-(Loaded) PlayerRight1.png
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) door.png
-(Loaded) guardian1.png
-(Loaded) Player.png
-(Loaded) PlayerForward1.png
-(Loaded) PlayerForward2.png
-(Loaded) PlayerForward3.png
-(Loaded) PlayerLeft3.png
-(Loaded) PlayerLeft1.png
-(Loaded) PlayerLeft2.png
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
 (Loaded) scroll.png
-(Loaded) door.png
 (Loaded) Player.png
 (Loaded) PlayerForward3.png
 (Loaded) PlayerForward1.png
-2A
-(Loaded) Scroll2A.png
-(Loaded) PlayerBack3.png
-(Loaded) PlayerBack1.png
-(Loaded) PlayerBack2.png
+(Loaded) PlayerForward2.png
+1
+(Loaded) PlayerRight1.png
+1
+1
+1
+(Loaded) PlayerRight2.png
+1
+1
+1
+1
+(Loaded) PlayerRight3.png
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
 (Loaded) PlayerLeft3.png
 (Loaded) PlayerLeft1.png
-(Loaded) PlayerForward2.png
-2A
-2A
+(Loaded) PlayerLeft2.png
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
 (Loaded) door.png
 (Loaded) guardian1.png
+(Loaded) scroll.png
 (Loaded) Player.png
-(Loaded) PlayerBack1.png
-(Loaded) PlayerBack2.png
-(Loaded) PlayerBack3.png
-(Loaded) PlayerForward1.png
 (Loaded) PlayerForward2.png
-(Loaded) PlayerLeft2.png
 (Loaded) PlayerForward3.png
-(Loaded) PlayerLeft3.png
-(Loaded) PlayerLeft1.png
-3
-(Loaded) PlayerRight3.png
-3
+(Loaded) PlayerForward1.png
 3
 (Loaded) PlayerRight1.png
-3
-3
-3
-3
 3
 3
 3
@@ -97,6 +74,7 @@ Compile time: 47 milliseconds
 3
 3
 3
+(Loaded) PlayerRight3.png
 3
 3
 3
@@ -109,24 +87,288 @@ Compile time: 47 milliseconds
 3
 3
 3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) guardian1.png
+(Loaded) door.png
+(Loaded) Player.png
+(Loaded) PlayerForward3.png
+(Loaded) PlayerForward1.png
+(Loaded) PlayerForward2.png
+(Loaded) PlayerLeft2.png
+(Loaded) PlayerLeft3.png
+4
+(Loaded) PlayerRight3.png
+4
+4
+(Loaded) PlayerRight1.png
+4
+4
+4
+4
+(Loaded) PlayerRight2.png
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) door.png
+(Loaded) coins.png
+(Loaded) Player.png
+(Loaded) PlayerForward1.png
+(Loaded) PlayerForward2.png
+(Loaded) PlayerForward3.png
+(Loaded) PlayerLeft1.png
+(Loaded) PlayerBack3.png
+(Loaded) PlayerBack1.png
+(Loaded) PlayerBack2.png
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) guardian1.png
+(Loaded) door.png
+(Loaded) Player.png
+(Loaded) PlayerBack1.png
+(Loaded) PlayerForward2.png
+(Loaded) PlayerForward3.png
+(Loaded) PlayerLeft3.png
+(Loaded) PlayerForward1.png
+(Loaded) PlayerLeft1.png
+4
+(Loaded) PlayerRight2.png
+4
+4
+4
+4
+4
+(Loaded) PlayerRight3.png
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) guardian1.png
+(Loaded) door.png
+(Loaded) Player.png
+(Loaded) PlayerForward1.png
+(Loaded) PlayerForward2.png
+(Loaded) PlayerForward3.png
+(Loaded) PlayerLeft2.png
+(Loaded) PlayerLeft3.png
+(Loaded) PlayerLeft1.png
+4
+(Loaded) PlayerRight3.png
+4
+4
+4
+4
+4
+4
+4
+4
+(Loaded) PlayerRight1.png
+4
+4
+4
+4
+4
+4
+4
+(Loaded) PlayerRight2.png
+4
+4
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) door.png
+(Loaded) coins.png
+(Loaded) Player.png
+(Loaded) PlayerForward1.png
+(Loaded) PlayerForward2.png
+(Loaded) PlayerForward3.png
+(Loaded) PlayerLeft1.png
+(Loaded) PlayerLeft2.png
+(Loaded) PlayerBack2.png
+(Loaded) PlayerBack3.png
+(Loaded) PlayerBack1.png
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) guardian1.png
+(Loaded) door.png
+(Loaded) Player.png
+(Loaded) PlayerBack2.png
+(Loaded) PlayerBack3.png
+(Loaded) PlayerLeft3.png
+(Loaded) PlayerLeft1.png
+(Loaded) PlayerForward1.png
+(Loaded) PlayerForward2.png
+(Loaded) PlayerLeft2.png
+(Loaded) PlayerForward3.png
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) door.png
+(Loaded) scroll.png
+(Loaded) Player.png
+(Loaded) PlayerForward2.png
+(Loaded) PlayerForward3.png
+(Loaded) PlayerForward1.png
+5
+(Loaded) Scroll5.png
+2
+(Loaded) PlayerRight2.png
+2
+2
+2
+2
+(Loaded) PlayerRight3.png
+2
+2
+2
+2
+2
+(Loaded) PlayerRight1.png
+2
+2
+2
+2
+2
+2
+(Loaded) PlayerLeft2.png
+(Loaded) PlayerLeft3.png
+(Loaded) PlayerLeft1.png
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) guardian1.png
+(Loaded) door.png
+(Loaded) scroll.png
+(Loaded) Player.png
+(Loaded) PlayerForward3.png
+(Loaded) PlayerForward1.png
+(Loaded) PlayerForward2.png
+4
+(Loaded) PlayerRight1.png
+4
+4
+4
+(Loaded) PlayerRight2.png
+4
+4
+4
+4
+4
+(Loaded) PlayerRight3.png
+4
+4
+4
+4
+(Loaded) PlayerLeft3.png
+(Loaded) PlayerLeft1.png
+(Loaded) PlayerLeft2.png
+4
+4
+4
+4
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) door.png
+(Loaded) Player.png
+(Loaded) PlayerForward1.png
+(Loaded) PlayerForward2.png
+(Loaded) PlayerForward3.png
+(Loaded) PlayerLeft1.png
+(Loaded) PlayerLeft2.png
+(Loaded) PlayerBack2.png
+(Loaded) PlayerBack3.png
+(Loaded) PlayerBack1.png
+1
+(Loaded) PlayerRight3.png
+1
+1
+1
+1
+1
+(Loaded) PlayerRight1.png
+1
+(Loaded) PlayerRight2.png
+1
+1
+1
+1
+1
+1
+(Loaded) PlayerLeft3.png
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) guardian1.png
+(Loaded) door.png
+(Loaded) scroll.png
+(Loaded) Player.png
+(Loaded) PlayerBack2.png
+(Loaded) PlayerForward3.png
+(Loaded) PlayerForward1.png
+(Loaded) PlayerForward2.png
+4
+(Loaded) PlayerRight2.png
+4
+4
+(Loaded) PlayerRight3.png
+4
+4
+4
+4
+(Loaded) PlayerRight1.png
+4
+4
+4
+4
+4
+4
+4
+4
+(Loaded) PlayerLeft2.png
+(Loaded) PlayerLeft3.png
+(Loaded) PlayerLeft1.png

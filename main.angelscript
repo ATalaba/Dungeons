@@ -11,6 +11,7 @@ ETHEntityArray Money;
 ETHEntityArray Scrolls;
 ETHEntityArray NiceScrolls;
 bool reading = false;
+int Moneys = 0;
 
 void main()
 {
@@ -21,7 +22,7 @@ void main()
 }
 
 void setup() {
-	id = AddEntity("Player.ent", vector3(540, 540, 20), 0);
+	id = AddEntity("Player.ent", vector3(540, 600, 20), 0);
 	//SeekEntity(id).Scale(vector2(0.5f,0.5f));
 	/*ETHEntity@ door = SeekEntity("door.ent");
 	Doors.Insert(door);*/
@@ -35,6 +36,7 @@ void setup() {
 }
 
 void run() {	
+DrawText(vector2(30, 700), "You have " + Moneys + " Gold", "Verdana14_shadow.fnt", ARGB(250, 255, 255, 255));
 }
 
 void ETHCallback_Player(ETHEntity@ thisEntity) {
@@ -78,12 +80,19 @@ ETHInput@ input = GetInputHandle();
 		if(distance(thisEntity.GetPositionXY(), Guardians[j].GetPositionXY()) < 128) {
 			DrawText(vector2(Guardians[j].GetPositionX() - (Guardians[j].GetString("Message").length() * 3.4), Guardians[j].GetPositionY() - 70), Guardians[j].GetString("Message"), "Verdana14_shadow.fnt", ARGB(250, 255, 255, 255));
 		}
+		if(distance(thisEntity.GetPositionXY(), Guardians[j].GetPositionXY()) < 128 and Moneys >= 100 and input.KeyDown(K_SPACE) and Guardians[j].GetInt("MoneyGiven") == 2 and Guardians[j].GetEntityName() == "guardian4.ent") {
+			Moneys -= 100;
+			Guardians[j].SetInt("MoneyGiven", 1);
+			for (int kl = 0; kl < Doors.Size(); kl++) {
+				Doors[kl].SetInt("Unlocked", 0);
+			}
+		}
 	}
 	for (int k = 0; k < Money.Size(); k++) {
 		if(distance(thisEntity.GetPositionXY(), Money[k].GetPositionXY()) < 64) {
 			DeleteEntity(Money[0]);
 			Money.RemoveDeadEntities();
-			thisEntity.SetInt("Money", thisEntity.GetInt("Money") + 100);
+			Moneys += 100;
 		}
 	}
 	for (int m = 0; m < Scrolls.Size(); m++) {
@@ -91,7 +100,7 @@ ETHInput@ input = GetInputHandle();
 			print (Scrolls[m].GetString("Name"));
 			AddEntity("Scroll" + Scrolls[m].GetString("Name") + ".ent", vector3(508, 420 /*Blaze it*/, 100), 0);
 			GetEntityArray("Scroll" + Scrolls[m].GetString("Name") + ".ent", NiceScrolls);
-			thisEntity.SetPosition(vector3(540, 540, 20));
+			thisEntity.SetPosition(vector3(thisEntity.GetPositionX(), thisEntity.GetPositionY() + 30, 20));
 			reading = true;
 			
 		}

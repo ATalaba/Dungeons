@@ -304,6 +304,11 @@
                         <Name>Stage</Name>
                         <Value>Third</Value>
                     </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
+                    </Variable>
                 </CustomData>
             </Entity>
         </Entity>
@@ -676,6 +681,11 @@
                         <Name>Stage</Name>
                         <Value>First</Value>
                     </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
+                    </Variable>
                 </CustomData>
             </Entity>
         </Entity>
@@ -970,6 +980,11 @@
                         <Name>Stage</Name>
                         <Value>SecondA</Value>
                     </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
+                    </Variable>
                 </CustomData>
             </Entity>
         </Entity>
@@ -983,6 +998,20 @@
                         <Type>string</Type>
                         <Name>Message</Name>
                         <Value>Welcome, this way will send you forward.</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="700" spriteFrame="0">
+            <EntityName>Scroll.ent</EntityName>
+            <Position x="506" y="457" z="0" angle="0" />
+            <Entity>
+                <FileName>Scroll.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>Name</Name>
+                        <Value>2</Value>
                     </Variable>
                 </CustomData>
             </Entity>
