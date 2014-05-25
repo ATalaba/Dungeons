@@ -1,2 +1,35 @@
 [C:\Users\andre_000\Dungeons\_error.log.txt]
 Couldn't find the entity to delete: ID326
+Couldn't find the entity to delete: ID533
+Couldn't find the entity to delete: ID532
+Couldn't find the entity to delete: ID531
+Couldn't find the entity to delete: ID505
+Couldn't find the entity to delete: ID508
+Couldn't find the entity to delete: ID506
+Couldn't find the entity to delete: ID587
+Couldn't find the entity to delete: ID586
+Couldn't find the entity to delete: ID590
+Couldn't find the entity to delete: ID588
+Couldn't find the entity to delete: ID533
+Couldn't find the entity to delete: ID587
+Couldn't find the entity to delete: ID586
+Couldn't find the entity to delete: ID590
+Couldn't find the entity to delete: ID588
+Couldn't find the entity to delete: ID326
+Couldn't find the entity to delete: ID411
+Couldn't find the entity to delete: ID584
+Couldn't find the entity to delete: ID583
+Couldn't find the entity to delete: ID589
+Couldn't find the entity to delete: ID584
+Couldn't find the entity to delete: ID583
+Couldn't find the entity to delete: ID589
+Couldn't find the entity to delete: ID584
+Couldn't find the entity to delete: ID583
+Couldn't find the entity to delete: ID586
+Couldn't find the entity to delete: ID585
+Couldn't find the entity to delete: ID589
+ETHScene::LoadFromFile: file not found (C:\Users\andre_000\Dungeons\scenes\Ninth.esc)
+Couldn't find the entity to delete: ID505
+Couldn't find the entity to delete: ID504
+Couldn't find the entity to delete: ID508
+Couldn't find the entity to delete: ID506

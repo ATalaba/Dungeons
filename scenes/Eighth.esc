@@ -286,7 +286,7 @@
                     <Variable>
                         <Type>string</Type>
                         <Name>Message</Name>
-                        <Value>Torn to shreds (Perhaps you deserve to be)</Value>
+                        <Value>Torn to shreds</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -338,7 +338,7 @@
                     <Variable>
                         <Type>string</Type>
                         <Name>Message</Name>
-                        <Value>Ripped to pieces (Debts must be repaid. Go through the center)</Value>
+                        <Value>Ripped to pieces </Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -998,7 +998,7 @@
                     <Variable>
                         <Type>string</Type>
                         <Name>Message</Name>
-                        <Value>You&apos;re going to die. (Kindness...How rare...Go through the center)</Value>
+                        <Value>You&apos;re going to die. </Value>
                     </Variable>
                 </CustomData>
             </Entity>

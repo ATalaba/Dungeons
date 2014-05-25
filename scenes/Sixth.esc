@@ -237,14 +237,6 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="326" spriteFrame="0">
-            <EntityName>Wall.ent</EntityName>
-            <Position x="672" y="96" z="0" angle="0" />
-            <Entity>
-                <FileName>Wall.ent</FileName>
-                <CustomData />
-            </Entity>
-        </Entity>
         <Entity id="327" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
             <Position x="608" y="96" z="0" angle="0" />
@@ -266,14 +258,6 @@
             <Position x="512" y="64" z="0" angle="0" />
             <Entity>
                 <FileName>Floor.ent</FileName>
-                <CustomData />
-            </Entity>
-        </Entity>
-        <Entity id="336" spriteFrame="0">
-            <EntityName>Fire2.ent</EntityName>
-            <Position x="648" y="83" z="0" angle="0" />
-            <Entity>
-                <FileName>Fire2.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
@@ -341,6 +325,22 @@
                         <Value>Nothing but gold rests behind me.</Value>
                     </Variable>
                 </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="749" spriteFrame="0">
+            <EntityName>Wall.ent</EntityName>
+            <Position x="672" y="96" z="0" angle="0" />
+            <Entity>
+                <FileName>Wall.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="750" spriteFrame="0">
+            <EntityName>Fire2.ent</EntityName>
+            <Position x="647" y="81" z="0" angle="0" />
+            <Entity>
+                <FileName>Fire2.ent</FileName>
+                <CustomData />
             </Entity>
         </Entity>
         <Entity id="49" spriteFrame="0">
