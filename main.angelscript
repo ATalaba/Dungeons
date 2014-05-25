@@ -12,6 +12,7 @@ ETHEntityArray Scrolls;
 ETHEntityArray NiceScrolls;
 bool reading = false;
 bool musicCheck = false;
+bool closeMusicCheck = false;
 int Moneys = 0;
 bool gold1 = false;
 bool gold2 = false;
@@ -31,6 +32,7 @@ void setup() {
 	} else {
 		LoadScene("scenes\\Death.esc", "setup", "run");
 	}
+	
 	//SeekEntity(id).Scale(vector2(0.5f,0.5f));
 	/*ETHEntity@ door = SeekEntity("door.ent");
 	Doors.Insert(door);*/
@@ -41,12 +43,19 @@ void setup() {
 	GetEntityArray("guardian4.ent", Guardians);
 	GetEntityArray("coins.ent", Money);
 	GetEntityArray("Scroll.ent", Scrolls);
-	if (musicCheck == false) {
+	if (musicCheck == false and monsterDist > 1) {
 	   LoadMusic("song.mp3");
 	   SetSampleVolume("song.mp3", 1.0f);
 	   LoopSample("song.mp3", true);
 	   PlaySample("song.mp3");
 	   musicCheck = true;
+	}
+	if (closeMusicCheck == false and monsterDist <= 1) {
+		LoadMusic("song3.mp3");
+		SetSampleVolume("song3.mp3", 1.0f);
+		LoopSample("song3.mp3", true);
+		PlaySample("song3.mp3");
+		closeMusicCheck = true;
 	}
 }
 
