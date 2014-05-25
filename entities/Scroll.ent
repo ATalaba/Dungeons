@@ -1,8 +1,14 @@
 <?xml version="1.0" ?>
 <Ethanon>
-    <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="1" blendMode="4">
+    <Entity shape="0" applyLight="0" castShadow="0" type="0" static="0" blendMode="0">
         <Sprite>scroll.png</Sprite>
         <Particles />
-        <CustomData />
+        <CustomData>
+            <Variable>
+                <Type>string</Type>
+                <Name>Name</Name>
+                <Value>none</Value>
+            </Variable>
+        </CustomData>
     </Entity>
 </Ethanon>

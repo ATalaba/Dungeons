@@ -9,6 +9,7 @@ ETHEntityArray Doors;
 ETHEntityArray Guardians;
 ETHEntityArray Money;
 ETHEntityArray Scrolls;
+ETHEntityArray NiceScrolls;
 bool reading = false;
 
 void main()
@@ -30,9 +31,7 @@ void setup() {
 	GetEntityArray("guardian3.ent", Guardians);
 	GetEntityArray("guardian4.ent", Guardians);
 	GetEntityArray("coins.ent", Money);
-	
-	//Add other scroll entities to the array
-	GetEntityArray("scroll.ent", Scrolls);
+	GetEntityArray("Scroll.ent", Scrolls);
 }
 
 void run() {	
@@ -59,18 +58,24 @@ ETHInput@ input = GetInputHandle();
 	}
 	if (input.KeyDown(K_SPACE)) {
 		reading = false;
+		for (int p = 0; p < NiceScrolls.Size(); p++) {
+			DeleteEntity(NiceScrolls[p]);
+			NiceScrolls.RemoveDeadEntities();
+		}
 		for (int i = 0; i < Doors.Size(); i++) {
-		if ((thisEntity.GetPositionY() <= 155 or thisEntity.GetPositionY() > 655) and distance(vector2(thisEntity.GetPositionX(), 0), vector2(Doors[i].GetPositionX(),0)) <= 64) {
-			if (Doors[i].GetInt("Unlocked") == 0) {
-			LoadScene("scenes\\" + Doors[i].GetString("Stage") + ".esc", "setup", "run");
-			Doors.clear();
-			Guardians.clear();
+			if ((thisEntity.GetPositionY() <= 155 or thisEntity.GetPositionY() > 655) and distance(vector2(thisEntity.GetPositionX(), 0), vector2(Doors[i].GetPositionX(),0)) <= 64) {
+				if (Doors[i].GetInt("Unlocked") == 0) {
+				LoadScene("scenes\\" + Doors[i].GetString("Stage") + ".esc", "setup", "run");
+				Doors.clear();
+				Guardians.clear();
+				Scrolls.clear();
+				Money.clear();
+				}
 			}
 		}
 	}
 	for (int j = 0; j < Guardians.Size(); j++) {
 		if(distance(thisEntity.GetPositionXY(), Guardians[j].GetPositionXY()) < 128) {
-			print ("Here");
 			DrawText(vector2(Guardians[j].GetPositionX() - (Guardians[j].GetString("Message").length() * 3.4), Guardians[j].GetPositionY() - 70), Guardians[j].GetString("Message"), "Verdana14_shadow.fnt", ARGB(250, 255, 255, 255));
 		}
 	}
@@ -83,8 +88,12 @@ ETHInput@ input = GetInputHandle();
 	}
 	for (int m = 0; m < Scrolls.Size(); m++) {
 		if(distance(thisEntity.GetPositionXY(), Scrolls[m].GetPositionXY()) < 64) {
+			print (Scrolls[m].GetString("Name"));
+			AddEntity("Scroll" + Scrolls[m].GetString("Name") + ".ent", vector3(508, 420 /*Blaze it*/, 100), 0);
+			GetEntityArray("Scroll" + Scrolls[m].GetString("Name") + ".ent", NiceScrolls);
 			thisEntity.SetPosition(vector3(540, 540, 20));
 			reading = true;
+			
 		}
 	}
 }

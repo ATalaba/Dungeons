@@ -1,7 +1,11 @@
 [C:\Users\andre_000\Dungeons\_warning.log.txt]
 
-[WARN ] main.angelscript, line 55: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 61: Signed/Unsigned mismatch
 
-[WARN ] main.angelscript, line 64: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 65: Signed/Unsigned mismatch
 
-[WARN ] main.angelscript, line 70: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 77: Signed/Unsigned mismatch
+
+[WARN ] main.angelscript, line 82: Signed/Unsigned mismatch
+
+[WARN ] main.angelscript, line 89: Signed/Unsigned mismatch
