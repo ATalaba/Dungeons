@@ -277,7 +277,15 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="418" spriteFrame="0" shadowZ="0">
+        <Entity id="502" spriteFrame="0" shadowZ="0">
+            <EntityName>guardian1.ent</EntityName>
+            <Position x="512" y="256" z="0" angle="0" />
+            <Entity>
+                <FileName>guardian1.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="503" spriteFrame="0" shadowZ="0">
             <EntityName>guardian1.ent</EntityName>
             <Position x="768" y="256" z="0" angle="0" />
             <Entity>
@@ -285,15 +293,7 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="419" spriteFrame="0" shadowZ="0">
-            <EntityName>guardian3.ent</EntityName>
-            <Position x="512" y="256" z="0" angle="0" />
-            <Entity>
-                <FileName>guardian3.ent</FileName>
-                <CustomData />
-            </Entity>
-        </Entity>
-        <Entity id="505" spriteFrame="0">
+        <Entity id="586" spriteFrame="0">
             <EntityName>door.ent</EntityName>
             <Position x="512" y="20" z="0" angle="0" />
             <Entity>
@@ -302,12 +302,12 @@
                     <Variable>
                         <Type>string</Type>
                         <Name>Stage</Name>
-                        <Value>Fourth</Value>
+                        <Value>SeventhC</Value>
                     </Variable>
                 </CustomData>
             </Entity>
         </Entity>
-        <Entity id="506" spriteFrame="0">
+        <Entity id="587" spriteFrame="0">
             <EntityName>door.ent</EntityName>
             <Position x="768" y="20" z="0" angle="0" />
             <Entity>
@@ -316,7 +316,7 @@
                     <Variable>
                         <Type>string</Type>
                         <Name>Stage</Name>
-                        <Value>ThirdB</Value>
+                        <Value>Eighth</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -489,7 +489,7 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="508" spriteFrame="0">
+        <Entity id="589" spriteFrame="0">
             <EntityName>door.ent</EntityName>
             <Position x="512" y="748" z="0" angle="0" />
             <Entity>
@@ -498,7 +498,7 @@
                     <Variable>
                         <Type>string</Type>
                         <Name>Stage</Name>
-                        <Value>Second</Value>
+                        <Value>Sixth</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -671,7 +671,7 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="507" spriteFrame="0">
+        <Entity id="588" spriteFrame="0">
             <EntityName>Floor.ent</EntityName>
             <Position x="512" y="704" z="0" angle="0" />
             <Entity>
@@ -943,15 +943,15 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="417" spriteFrame="0" shadowZ="0">
-            <EntityName>guardian1.ent</EntityName>
+        <Entity id="501" spriteFrame="0" shadowZ="0">
+            <EntityName>guardian3.ent</EntityName>
             <Position x="256" y="256" z="0" angle="0" />
             <Entity>
-                <FileName>guardian1.ent</FileName>
+                <FileName>guardian3.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="504" spriteFrame="0">
+        <Entity id="585" spriteFrame="0">
             <EntityName>door.ent</EntityName>
             <Position x="256" y="20" z="0" angle="0" />
             <Entity>
@@ -960,7 +960,7 @@
                     <Variable>
                         <Type>string</Type>
                         <Name>Stage</Name>
-                        <Value>ThirdA</Value>
+                        <Value>SeventhA</Value>
                     </Variable>
                 </CustomData>
             </Entity>

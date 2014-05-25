@@ -5,6 +5,7 @@
 #include "eth_util.angelscript"
 
 int id = 1;
+ETHEntityArray Doors;
 
 void main()
 {
@@ -18,9 +19,12 @@ void setup() {
 	//id = AddEntity("Player.ent", vector3(540, 600, 0), 0);
 	id = AddEntity("Player.ent", vector3(540, 540, 20), 0);
 	SeekEntity(id).Scale(vector2(0.5f,0.5f));
+	/*ETHEntity@ door = SeekEntity("door.ent");
+	Doors.Insert(door);*/
+	GetEntityArray("door.ent", Doors);
 }
 
-void run() {
+void run() {	
 }
 
 void ETHCallback_Player(ETHEntity@ thisEntity) {
@@ -36,10 +40,17 @@ ETHInput@ input = GetInputHandle();
 	}
 	if ((input.KeyDown(K_D) or input.KeyDown(K_RIGHT)) and thisEntity.GetPositionX() < 872) {
 		thisEntity.AddToPositionX(5.0);
+		print (Doors.Size());
+	}
+	for (int i = 0; i < Doors.Size(); i++) {
+		if (input.KeyDown(K_SPACE) and (thisEntity.GetPositionY() <= 155 or thisEntity.GetPositionY() > 655) and distance(vector2(thisEntity.GetPositionX(), 0), vector2(Doors[i].GetPositionX(),0)) <= 64) {
+			LoadScene("scenes\\" + Doors[i].GetString("Stage") + ".esc", "setup", "run");
+			Doors.clear();
+		}
 	}
 }
 
-class Object {
+/*class Object {
 
 	Object(){}
 }
@@ -76,4 +87,4 @@ class TreeNode : Object {
 		return numChildren;
 	  }	
 
-}	
+}*/

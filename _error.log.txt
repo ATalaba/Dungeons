@@ -1,4 +1,2 @@
-[C:\Users\Public\Documents\Ethanon\CodeDay\Dungeons\_error.log.txt]
-
-First.esc: couldn't load entity door.ent(C:\Users\Public\Documents\Ethanon\CodeDay\Dungeons\entities/door.ent)
-
+[C:\Users\andre_000\Dungeons\_error.log.txt]
+ETHScene::LoadFromFile: file not found (C:\Users\andre_000\Dungeons\scenes\.esc)

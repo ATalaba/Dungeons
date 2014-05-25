@@ -5,6 +5,20 @@
         <ZAxisDirection x="0" y="-1" />
     </SceneProperties>
     <EntitiesInScene>
+        <Entity id="326" spriteFrame="0">
+            <EntityName>door.ent</EntityName>
+            <Position x="512" y="21" z="0" angle="0" />
+            <Entity>
+                <FileName>door.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>Stage</Name>
+                        <Value>Second</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
         <Entity id="12" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
             <Position x="608" y="32" z="0" angle="0" />
@@ -298,14 +312,6 @@
             <Position x="811" y="88" z="0" angle="0" />
             <Entity>
                 <FileName>Fire2.ent</FileName>
-                <CustomData />
-            </Entity>
-        </Entity>
-        <Entity id="326" spriteFrame="0">
-            <EntityName>door.ent</EntityName>
-            <Position x="512" y="20" z="0" angle="0" />
-            <Entity>
-                <FileName>door.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>

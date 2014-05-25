@@ -1,13 +1,132 @@
-[C:\Users\lunasolstice\Documents\FawnThings\Dungeons\eth.log.txt]
+[C:\Users\andre_000\Dungeons\eth.log.txt]
 Backbuffer created as 1016, 720 on default backbuffer mode
 ____________________________
 
 Loading game script from source-code: main.angelscript
 
+[INFO ] main.angelscript, line 30: Compiling void ETHCallback_Player(ETHEntity@)
 
-Compile time: 15 milliseconds
+[WARN ] main.angelscript, line 45: Signed/Unsigned mismatch
+
+Compile time: 0 milliseconds
+(Loaded) door.png
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) Player.png
+1
+1
+1
+1
+1
+1
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
 (Loaded) door.png
+(Loaded) guardian1.png
+(Loaded) Player.png
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) door.png
+(Loaded) Player.png
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) door.png
+(Loaded) guardian1.png
+(Loaded) Player.png
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) guardian1.png
+(Loaded) door.png
+(Loaded) Player.png
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) door.png
+(Loaded) Player.png
+1
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) guardian1.png
+(Loaded) door.png
+(Loaded) Player.png
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) guardian1.png
+(Loaded) door.png
+(Loaded) Player.png
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) door.png
+(Loaded) Player.png
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) guardian1.png
+(Loaded) door.png
+(Loaded) Player.png
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) door.png
+(Loaded) Player.png
+1
+1
+1
+1
+1
+1
+1
+ETHScene::LoadFromFile: file not found (C:\Users\andre_000\Dungeons\scenes\.esc)
 (Loaded) Player.png

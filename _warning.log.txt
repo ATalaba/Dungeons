@@ -1,0 +1,3 @@
+[C:\Users\andre_000\Dungeons\_warning.log.txt]
+
+[WARN ] main.angelscript, line 45: Signed/Unsigned mismatch
