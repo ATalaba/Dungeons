@@ -301,6 +301,14 @@
                 <CustomData />
             </Entity>
         </Entity>
+        <Entity id="326" spriteFrame="0">
+            <EntityName>door.ent</EntityName>
+            <Position x="512" y="20" z="0" angle="0" />
+            <Entity>
+                <FileName>door.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="49" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
             <Position x="32" y="544" z="0" angle="0" />
@@ -773,14 +781,6 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="35" spriteFrame="0">
-            <EntityName>Wall.ent</EntityName>
-            <Position x="353" y="97" z="0" angle="0" />
-            <Entity>
-                <FileName>Wall.ent</FileName>
-                <CustomData />
-            </Entity>
-        </Entity>
         <Entity id="36" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
             <Position x="416" y="96" z="0" angle="0" />
@@ -954,6 +954,14 @@
             <Position x="192" y="448" z="0" angle="0" />
             <Entity>
                 <FileName>Floor.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="327" spriteFrame="0">
+            <EntityName>Wall.ent</EntityName>
+            <Position x="352" y="96" z="0" angle="0" />
+            <Entity>
+                <FileName>Wall.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
