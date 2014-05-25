@@ -6,6 +6,7 @@
 
 int id = 1;
 ETHEntityArray Doors;
+ETHEntityArray Guardians;
 
 void main()
 {
@@ -22,6 +23,10 @@ void setup() {
 	/*ETHEntity@ door = SeekEntity("door.ent");
 	Doors.Insert(door);*/
 	GetEntityArray("door.ent", Doors);
+	GetEntityArray("guardian1.ent", Guardians);
+	GetEntityArray("guardian2.ent", Guardians);
+	GetEntityArray("guardian3.ent", Guardians);
+	GetEntityArray("guardian4.ent", Guardians);
 }
 
 void run() {	
@@ -46,6 +51,11 @@ ETHInput@ input = GetInputHandle();
 		if (input.KeyDown(K_SPACE) and (thisEntity.GetPositionY() <= 155 or thisEntity.GetPositionY() > 655) and distance(vector2(thisEntity.GetPositionX(), 0), vector2(Doors[i].GetPositionX(),0)) <= 64) {
 			LoadScene("scenes\\" + Doors[i].GetString("Stage") + ".esc", "setup", "run");
 			Doors.clear();
+		}
+	}
+	for(int i = 0; i < Guardians.Size(); i++) {
+		if (distance(thisEntity.GetPositionXY(), Guardians[i].GetPositionXY()) < 40) {
+			
 		}
 	}
 }
