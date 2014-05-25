@@ -1,2 +1,2 @@
 [C:\Users\andre_000\Dungeons\_error.log.txt]
-ETHScene::LoadFromFile: file not found (C:\Users\andre_000\Dungeons\scenes\Ninth.esc)
+Couldn't find the entity to delete: ID326
