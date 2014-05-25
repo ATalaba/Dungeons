@@ -71,5 +71,9 @@ class TreeNode : Object {
       Object getChild(int index) {
       	   return children[index];
       }	
+	  
+	  int size() {
+		return numChildren;
+	  }	
 
 }	
