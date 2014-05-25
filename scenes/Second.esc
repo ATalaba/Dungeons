@@ -312,7 +312,13 @@
             <Position x="640" y="256" z="0" angle="0" />
             <Entity>
                 <FileName>guardian3.ent</FileName>
-                <CustomData />
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>Message</Name>
+                        <Value>Oh dear, another one. This way will send you forward.</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="49" spriteFrame="0">
@@ -972,7 +978,13 @@
             <Position x="384" y="256" z="0" angle="0" />
             <Entity>
                 <FileName>guardian1.ent</FileName>
-                <CustomData />
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>Message</Name>
+                        <Value>Welcome, this way will send you forward.</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
     </EntitiesInScene>
