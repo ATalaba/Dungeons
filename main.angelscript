@@ -37,4 +37,5 @@ ETHInput@ input = GetInputHandle();
 	if ((input.KeyDown(K_D) or input.KeyDown(K_RIGHT)) and thisEntity.GetPositionX() < 872) {
 		thisEntity.AddToPositionX(5.0);
 	}
+	if ((input.KeyDown(K_SPACE) and thisEntity.GetPositionY() = 660 and thisEntity.GetPositionX()
 }
