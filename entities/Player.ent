@@ -3,10 +3,16 @@
     <Entity shape="0" applyLight="0" castShadow="0" type="2" static="0" blendMode="0">
         <Sprite>Player.png</Sprite>
         <Particles />
-        <Light active="1" static="0" castShadows="0" range="500" haloBrightness="1" haloSize="64">
-            <Position x="-35" y="-144" z="50" />
+        <Light active="1" static="0" castShadows="1" range="400" haloBrightness="1" haloSize="64">
+            <Position x="-1" y="-29" z="50" />
             <Color r="1" g="0.5" b="0" />
         </Light>
-        <CustomData />
+        <CustomData>
+            <Variable>
+                <Type>int</Type>
+                <Name>Money</Name>
+                <Value>0</Value>
+            </Variable>
+        </CustomData>
     </Entity>
 </Ethanon>

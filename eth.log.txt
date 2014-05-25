@@ -4,16 +4,109 @@ ____________________________
 
 Loading game script from source-code: main.angelscript
 
-[INFO ] main.angelscript, line 30: Compiling void ETHCallback_Player(ETHEntity@)
+[INFO ] main.angelscript, line 28: Compiling void ETHCallback_Player(ETHEntity@)
 
-[WARN ] main.angelscript, line 45: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 47: Signed/Unsigned mismatch
 
-Compile time: 0 milliseconds
+Compile time: 31 milliseconds
 (Loaded) door.png
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
 (Loaded) Player.png
+(Loaded) PlayerBack2.png
+(Loaded) PlayerBack3.png
+(Loaded) PlayerBack1.png
+(Loaded) PlayerForward3.png
+(Loaded) PlayerForward1.png
+(Loaded) PlayerForward2.png
+1
+(Loaded) PlayerRight3.png
+1
+1
+(Loaded) PlayerRight1.png
+1
+1
+1
+1
+1
+1
+1
+1
+(Loaded) PlayerRight2.png
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+(Loaded) PlayerLeft1.png
+(Loaded) PlayerLeft2.png
+(Loaded) PlayerLeft3.png
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
 1
 1
 1
@@ -26,11 +119,98 @@ Compile time: 0 milliseconds
 (Loaded) door.png
 (Loaded) guardian1.png
 (Loaded) Player.png
+(Loaded) PlayerBack3.png
+(Loaded) PlayerBack1.png
+(Loaded) PlayerLeft2.png
+(Loaded) PlayerLeft3.png
+(Loaded) PlayerLeft1.png
+(Loaded) PlayerForward1.png
+(Loaded) PlayerForward2.png
+3
+(Loaded) PlayerRight2.png
+3
+(Loaded) PlayerRight3.png
+3
+3
+3
+3
+(Loaded) PlayerBack2.png
+(Loaded) PlayerForward3.png
+3
+(Loaded) PlayerRight1.png
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
 (Loaded) door.png
 (Loaded) Player.png
+(Loaded) PlayerBack1.png
+(Loaded) PlayerBack2.png
+(Loaded) PlayerBack3.png
+(Loaded) PlayerLeft2.png
+(Loaded) PlayerLeft3.png
+(Loaded) PlayerLeft1.png
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
@@ -38,6 +218,25 @@ Compile time: 0 milliseconds
 (Loaded) guardian1.png
 (Loaded) Player.png
 3
+(Loaded) PlayerRight1.png
+3
+3
+3
+(Loaded) PlayerRight2.png
+3
+3
+3
+(Loaded) PlayerRight3.png
+3
+3
+3
+3
+3
+3
+(Loaded) PlayerForward2.png
+3
+(Loaded) PlayerForward3.png
+(Loaded) PlayerForward1.png
 3
 3
 3
@@ -51,82 +250,6 @@ Compile time: 0 milliseconds
 3
 3
 3
-3
-3
-3
-3
-3
-3
-3
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) guardian1.png
-(Loaded) door.png
-(Loaded) Player.png
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) door.png
-(Loaded) Player.png
-1
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) guardian1.png
-(Loaded) door.png
-(Loaded) Player.png
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) guardian1.png
-(Loaded) door.png
-(Loaded) Player.png
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) door.png
-(Loaded) Player.png
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-2
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) guardian1.png
-(Loaded) door.png
-(Loaded) Player.png
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) door.png
-(Loaded) Player.png
-1
-1
-1
-1
-1
-1
-1
-ETHScene::LoadFromFile: file not found (C:\Users\andre_000\Dungeons\scenes\.esc)
-(Loaded) Player.png
+(Loaded) PlayerBack2.png
+(Loaded) PlayerBack3.png
+(Loaded) PlayerBack1.png

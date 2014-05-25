@@ -1,2 +1,5 @@
 [C:\Users\andre_000\Dungeons\_error.log.txt]
-ETHScene::LoadFromFile: file not found (C:\Users\andre_000\Dungeons\scenes\.esc)
+
+[ERROR] main.angelscript, line 32: Expected ';'
+ERROR - Failed while building module.
+ERROR - ETHEngine::StartEngine: no scene has been loaded.
