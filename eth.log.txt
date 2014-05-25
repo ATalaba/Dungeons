@@ -1,4 +1,4 @@
-[C:\Users\andre_000\Dungeons\eth.log.txt]
+[C:\Users\Public\Documents\Ethanon\CodeDay\Dungeons\eth.log.txt]
 Backbuffer created as 1016, 720 on default backbuffer mode
 ____________________________
 
@@ -9,5 +9,7 @@ Compile time: 0 milliseconds
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
-(Loaded) door.png
+
+First.esc: couldn't load entity door.ent(C:\Users\Public\Documents\Ethanon\CodeDay\Dungeons\entities/door.ent)
+
 (Loaded) Player.png
