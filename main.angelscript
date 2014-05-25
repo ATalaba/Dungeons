@@ -8,6 +8,8 @@ int id = 1;
 ETHEntityArray Doors;
 ETHEntityArray Guardians;
 ETHEntityArray Money;
+ETHEntityArray Scrolls;
+bool reading = false;
 
 void main()
 {
@@ -28,6 +30,9 @@ void setup() {
 	GetEntityArray("guardian3.ent", Guardians);
 	GetEntityArray("guardian4.ent", Guardians);
 	GetEntityArray("coins.ent", Money);
+	
+	//Add other scroll entities to the array
+	GetEntityArray("scroll.ent", Scrolls);
 }
 
 void run() {	
@@ -35,25 +40,27 @@ void run() {
 
 void ETHCallback_Player(ETHEntity@ thisEntity) {
 ETHInput@ input = GetInputHandle();
-	if ((input.KeyDown(K_W) or input.KeyDown(K_UP)) and thisEntity.GetPositionY() > 150) {
+	if ((input.KeyDown(K_W) or input.KeyDown(K_UP)) and thisEntity.GetPositionY() > 150 and !reading) {
 		thisEntity.AddToPositionY(-5.0);
 		thisEntity.SetSprite("entities\\PlayerForward" + (((GetTime() / 150) % 3) + 1) + ".png"); 
 	}
-	if ((input.KeyDown(K_S) or input.KeyDown(K_DOWN)) and thisEntity.GetPositionY() < 660) {
+	if ((input.KeyDown(K_S) or input.KeyDown(K_DOWN)) and thisEntity.GetPositionY() < 660 and !reading) {
 		thisEntity.AddToPositionY(5.0);
 		thisEntity.SetSprite("entities\\PlayerBack" + (((GetTime() / 150) % 3) + 1) + ".png");
 	}
-	if ((input.KeyDown(K_A) or input.KeyDown(K_LEFT)) and thisEntity.GetPositionX() > 144) {
+	if ((input.KeyDown(K_A) or input.KeyDown(K_LEFT)) and thisEntity.GetPositionX() > 144 and !reading) {
 		thisEntity.AddToPositionX(-5.0);
 		thisEntity.SetSprite("entities\\PlayerLeft" + (((GetTime() / 150) % 3) + 1) + ".png");
 	}
-	if ((input.KeyDown(K_D) or input.KeyDown(K_RIGHT)) and thisEntity.GetPositionX() < 872) {
+	if ((input.KeyDown(K_D) or input.KeyDown(K_RIGHT)) and thisEntity.GetPositionX() < 872 and !reading) {
 		thisEntity.AddToPositionX(5.0);
 		print (Doors.Size());
 		thisEntity.SetSprite("entities\\PlayerRight" + (((GetTime() / 150) % 3) + 1) + ".png");
 	}
-	for (int i = 0; i < Doors.Size(); i++) {
-		if (input.KeyDown(K_SPACE) and (thisEntity.GetPositionY() <= 155 or thisEntity.GetPositionY() > 655) and distance(vector2(thisEntity.GetPositionX(), 0), vector2(Doors[i].GetPositionX(),0)) <= 64) {
+	if (input.KeyDown(K_SPACE)) {
+		reading = false;
+		for (int i = 0; i < Doors.Size(); i++) {
+		if ((thisEntity.GetPositionY() <= 155 or thisEntity.GetPositionY() > 655) and distance(vector2(thisEntity.GetPositionX(), 0), vector2(Doors[i].GetPositionX(),0)) <= 64) {
 			if (Doors[i].GetInt("Unlocked") == 0) {
 			LoadScene("scenes\\" + Doors[i].GetString("Stage") + ".esc", "setup", "run");
 			Doors.clear();
@@ -72,6 +79,12 @@ ETHInput@ input = GetInputHandle();
 			DeleteEntity(Money[0]);
 			Money.RemoveDeadEntities();
 			thisEntity.SetInt("Money", thisEntity.GetInt("Money") + 100);
+		}
+	}
+	for (int m = 0; m < Scrolls.Size(); m++) {
+		if(distance(thisEntity.GetPositionXY(), Scrolls[m].GetPositionXY()) < 64) {
+			thisEntity.SetPosition(vector3(540, 540, 20));
+			reading = true;
 		}
 	}
 }
