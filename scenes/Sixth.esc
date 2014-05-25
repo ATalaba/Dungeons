@@ -277,20 +277,6 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="419" spriteFrame="0" shadowZ="0">
-            <EntityName>guardian3.ent</EntityName>
-            <Position x="512" y="256" z="0" angle="0" />
-            <Entity>
-                <FileName>guardian3.ent</FileName>
-                <CustomData>
-                    <Variable>
-                        <Type>string</Type>
-                        <Name>Message</Name>
-                        <Value>Nothing but gold rests behind me.</Value>
-                    </Variable>
-                </CustomData>
-            </Entity>
-        </Entity>
         <Entity id="501" spriteFrame="0" shadowZ="0">
             <EntityName>guardian3.ent</EntityName>
             <Position x="768" y="256" z="0" angle="0" />
@@ -329,6 +315,20 @@
                         <Type>string</Type>
                         <Name>Stage</Name>
                         <Value>Seventh</Value>
+                    </Variable>
+                </CustomData>
+            </Entity>
+        </Entity>
+        <Entity id="666" spriteFrame="0" shadowZ="0">
+            <EntityName>guardian1.ent</EntityName>
+            <Position x="512" y="256" z="0" angle="0" />
+            <Entity>
+                <FileName>guardian1.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>Message</Name>
+                        <Value>Nothing but gold rests behind me.</Value>
                     </Variable>
                 </CustomData>
             </Entity>

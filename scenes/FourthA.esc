@@ -672,6 +672,11 @@
                         <Name>Stage</Name>
                         <Value>Fourth</Value>
                     </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
+                    </Variable>
                 </CustomData>
             </Entity>
         </Entity>

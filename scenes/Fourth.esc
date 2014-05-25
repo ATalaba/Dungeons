@@ -286,7 +286,7 @@
                     <Variable>
                         <Type>string</Type>
                         <Name>Message</Name>
-                        <Value>This way, please. Or not. Up to you.</Value>
+                        <Value>You should go this way. Or not. It&apos;s your choice.</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -300,7 +300,7 @@
                     <Variable>
                         <Type>string</Type>
                         <Name>Message</Name>
-                        <Value>Only people who think for themselves survive.</Value>
+                        <Value>Only those who can think for themselves survive</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -314,7 +314,12 @@
                     <Variable>
                         <Type>string</Type>
                         <Name>Stage</Name>
-                        <Value>FourthA</Value>
+                        <Value>Fifth</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -326,9 +331,9 @@
                 <FileName>door.ent</FileName>
                 <CustomData>
                     <Variable>
-                        <Type>string</Type>
-                        <Name>Stage</Name>
-                        <Value>Second</Value>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -511,6 +516,11 @@
                         <Type>string</Type>
                         <Name>Stage</Name>
                         <Value>Third</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -964,7 +974,7 @@
                     <Variable>
                         <Type>string</Type>
                         <Name>Message</Name>
-                        <Value>Gold, gold! Give me gold! Greed is good!</Value>
+                        <Value>Gold, gold! Give me gold if you want to pass!</Value>
                     </Variable>
                 </CustomData>
             </Entity>
@@ -978,7 +988,12 @@
                     <Variable>
                         <Type>string</Type>
                         <Name>Stage</Name>
-                        <Value>Fifth</Value>
+                        <Value>FourthA</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>1</Value>
                     </Variable>
                 </CustomData>
             </Entity>

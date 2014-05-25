@@ -317,6 +317,14 @@
                 <CustomData />
             </Entity>
         </Entity>
+        <Entity id="574" spriteFrame="0">
+            <EntityName>Scroll.ent</EntityName>
+            <Position x="524" y="438" z="0" angle="0" />
+            <Entity>
+                <FileName>Scroll.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
         <Entity id="49" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
             <Position x="32" y="544" z="0" angle="0" />
@@ -671,6 +679,11 @@
                         <Type>string</Type>
                         <Name>Stage</Name>
                         <Value>Second</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
                     </Variable>
                 </CustomData>
             </Entity>

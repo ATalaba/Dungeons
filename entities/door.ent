@@ -3,6 +3,12 @@
     <Entity shape="0" applyLight="1" specularPower="50" specularBrightness="1" castShadow="0" type="0" static="0" blendMode="4">
         <Sprite>door.png</Sprite>
         <Particles />
-        <CustomData />
+        <CustomData>
+            <Variable>
+                <Type>int</Type>
+                <Name>Unlocked</Name>
+                <Value>0</Value>
+            </Variable>
+        </CustomData>
     </Entity>
 </Ethanon>
