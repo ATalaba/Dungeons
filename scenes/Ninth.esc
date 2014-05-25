@@ -682,6 +682,11 @@
                 <FileName>door.ent</FileName>
                 <CustomData>
                     <Variable>
+                        <Type>string</Type>
+                        <Name>Stage</Name>
+                        <Value>First</Value>
+                    </Variable>
+                    <Variable>
                         <Type>int</Type>
                         <Name>Unlocked</Name>
                         <Value>0</Value>
