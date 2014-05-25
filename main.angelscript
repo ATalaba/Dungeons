@@ -11,7 +11,10 @@ ETHEntityArray Money;
 ETHEntityArray Scrolls;
 ETHEntityArray NiceScrolls;
 bool reading = false;
+bool musicCheck = false;
 int Moneys = 0;
+bool gold1 = false;
+bool gold2 = false;
 
 void main()
 {
@@ -33,10 +36,25 @@ void setup() {
 	GetEntityArray("guardian4.ent", Guardians);
 	GetEntityArray("coins.ent", Money);
 	GetEntityArray("Scroll.ent", Scrolls);
+	if (musicCheck == false) {
+	   LoadMusic("song.mp3");
+	   SetSampleVolume("song.mp3", 1.0f);
+	   LoopSample("song.mp3", true);
+	   PlaySample("song.mp3");
+	   musicCheck = true;
+	}
 }
 
 void run() {	
-DrawText(vector2(30, 700), "You have " + Moneys + " Gold", "Verdana14_shadow.fnt", ARGB(250, 255, 255, 255));
+	DrawText(vector2(30, 700), "You have " + Moneys + " Gold", "Verdana14_shadow.fnt", ARGB(250, 255, 255, 255));
+
+	if (Money.size() == 1) {
+		if((Doors[0].GetString("Stage") == "Third" and gold1) or (Doors[0].GetString("Stage") == "Fourth" and gold2)){
+			DeleteEntity(Money[0]);
+			Money.RemoveDeadEntities();
+		}
+	}
+	
 }
 
 void ETHCallback_Player(ETHEntity@ thisEntity) {
@@ -55,7 +73,6 @@ ETHInput@ input = GetInputHandle();
 	}
 	if ((input.KeyDown(K_D) or input.KeyDown(K_RIGHT)) and thisEntity.GetPositionX() < 872 and !reading) {
 		thisEntity.AddToPositionX(5.0);
-		print (Doors.Size());
 		thisEntity.SetSprite("entities\\PlayerRight" + (((GetTime() / 150) % 3) + 1) + ".png");
 	}
 	if (input.KeyDown(K_SPACE)) {
@@ -67,11 +84,23 @@ ETHInput@ input = GetInputHandle();
 		for (int i = 0; i < Doors.Size(); i++) {
 			if ((thisEntity.GetPositionY() <= 155 or thisEntity.GetPositionY() > 655) and distance(vector2(thisEntity.GetPositionX(), 0), vector2(Doors[i].GetPositionX(),0)) <= 64) {
 				if (Doors[i].GetInt("Unlocked") == 0) {
-				LoadScene("scenes\\" + Doors[i].GetString("Stage") + ".esc", "setup", "run");
-				Doors.clear();
-				Guardians.clear();
-				Scrolls.clear();
-				Money.clear();
+					LoadScene("scenes\\" + Doors[i].GetString("Stage") + ".esc", "setup", "run");
+					/*
+					if((Doors[i].GetString("Stage") == "ThirdB" and gold1) or (Doors[i].GetString("Stage") == "FourthA" and gold2)) {
+						print("In the if");
+						DeleteEntity(SeekEntity("coins.ent"));
+					}
+					*/
+					
+					for (int q = 0; q < Doors.Size(); q++) {
+						DeleteEntity(Doors[q]);
+					}
+					Doors.RemoveDeadEntities();
+					
+					Guardians.clear();
+					Scrolls.clear();
+					Money.clear();
+
 				}
 			}
 		}
@@ -93,6 +122,12 @@ ETHInput@ input = GetInputHandle();
 			DeleteEntity(Money[0]);
 			Money.RemoveDeadEntities();
 			Moneys += 100;
+			
+			if(SeekEntity("door.ent").GetString("Stage") == "Third") {
+			    gold1 = true;
+			} else {
+			    gold2 = true;
+			}
 		}
 	}
 	for (int m = 0; m < Scrolls.Size(); m++) {
