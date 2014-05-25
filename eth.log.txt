@@ -4,57 +4,137 @@ ____________________________
 
 Loading game script from source-code: main.angelscript
 
-[INFO ] main.angelscript, line 42: Compiling void ETHCallback_Player(ETHEntity@)
+[INFO ] main.angelscript, line 53: Compiling void run()
 
 [WARN ] main.angelscript, line 63: Signed/Unsigned mismatch
 
-[WARN ] main.angelscript, line 67: Signed/Unsigned mismatch
+[INFO ] main.angelscript, line 68: Compiling void ETHCallback_Player(ETHEntity@)
 
-[WARN ] main.angelscript, line 79: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 88: Signed/Unsigned mismatch
 
-[WARN ] main.angelscript, line 86: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 92: Signed/Unsigned mismatch
 
-[WARN ] main.angelscript, line 91: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 102: Signed/Unsigned mismatch
 
-[WARN ] main.angelscript, line 98: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 115: Signed/Unsigned mismatch
 
-Compile time: 47 milliseconds
+[WARN ] main.angelscript, line 122: Signed/Unsigned mismatch
+
+[WARN ] main.angelscript, line 127: Signed/Unsigned mismatch
+
+[WARN ] main.angelscript, line 140: Signed/Unsigned mismatch
+
+Compile time: 63 milliseconds
 (Loaded) door.png
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
 (Loaded) scroll.png
 (Loaded) Player.png
-(Loaded) PlayerForward3.png
+(Loaded) song.mp3
+Second
 (Loaded) PlayerForward1.png
+Second
+Second
+Second
+Second
+Second
 (Loaded) PlayerForward2.png
-1
-(Loaded) PlayerRight1.png
-1
-1
-1
+Second
+Second
+Second
+Second
+(Loaded) PlayerForward3.png
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
 (Loaded) PlayerRight2.png
-1
-1
-1
-1
+Second
+Second
+Second
+Second
 (Loaded) PlayerRight3.png
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-(Loaded) PlayerLeft3.png
-(Loaded) PlayerLeft1.png
+Second
+Second
+Second
+Second
+(Loaded) PlayerRight1.png
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
 (Loaded) PlayerLeft2.png
+Second
+Second
+(Loaded) PlayerLeft3.png
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
@@ -62,313 +142,2349 @@ Compile time: 47 milliseconds
 (Loaded) guardian1.png
 (Loaded) scroll.png
 (Loaded) Player.png
-(Loaded) PlayerForward2.png
-(Loaded) PlayerForward3.png
 (Loaded) PlayerForward1.png
-3
-(Loaded) PlayerRight1.png
-3
-3
-3
-(Loaded) PlayerRight2.png
-3
-3
-3
-(Loaded) PlayerRight3.png
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) guardian1.png
-(Loaded) door.png
-(Loaded) Player.png
-(Loaded) PlayerForward3.png
-(Loaded) PlayerForward1.png
-(Loaded) PlayerForward2.png
-(Loaded) PlayerLeft2.png
-(Loaded) PlayerLeft3.png
-4
-(Loaded) PlayerRight3.png
-4
-4
-(Loaded) PlayerRight1.png
-4
-4
-4
-4
-(Loaded) PlayerRight2.png
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-4
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) door.png
-(Loaded) coins.png
-(Loaded) Player.png
-(Loaded) PlayerForward1.png
-(Loaded) PlayerForward2.png
-(Loaded) PlayerForward3.png
-(Loaded) PlayerLeft1.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
 (Loaded) PlayerBack3.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
 (Loaded) PlayerBack1.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
 (Loaded) PlayerBack2.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+(Loaded) door.png
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
-(Loaded) guardian1.png
-(Loaded) door.png
-(Loaded) Player.png
-(Loaded) PlayerBack1.png
-(Loaded) PlayerForward2.png
-(Loaded) PlayerForward3.png
-(Loaded) PlayerLeft3.png
-(Loaded) PlayerForward1.png
-(Loaded) PlayerLeft1.png
-4
-(Loaded) PlayerRight2.png
-4
-4
-4
-4
-4
-(Loaded) PlayerRight3.png
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) guardian1.png
-(Loaded) door.png
-(Loaded) Player.png
-(Loaded) PlayerForward1.png
-(Loaded) PlayerForward2.png
-(Loaded) PlayerForward3.png
-(Loaded) PlayerLeft2.png
-(Loaded) PlayerLeft3.png
-(Loaded) PlayerLeft1.png
-4
-(Loaded) PlayerRight3.png
-4
-4
-4
-4
-4
-4
-4
-4
-(Loaded) PlayerRight1.png
-4
-4
-4
-4
-4
-4
-4
-(Loaded) PlayerRight2.png
-4
-4
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) door.png
-(Loaded) coins.png
-(Loaded) Player.png
-(Loaded) PlayerForward1.png
-(Loaded) PlayerForward2.png
-(Loaded) PlayerForward3.png
-(Loaded) PlayerLeft1.png
-(Loaded) PlayerLeft2.png
-(Loaded) PlayerBack2.png
-(Loaded) PlayerBack3.png
-(Loaded) PlayerBack1.png
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) guardian1.png
-(Loaded) door.png
-(Loaded) Player.png
-(Loaded) PlayerBack2.png
-(Loaded) PlayerBack3.png
-(Loaded) PlayerLeft3.png
-(Loaded) PlayerLeft1.png
-(Loaded) PlayerForward1.png
-(Loaded) PlayerForward2.png
-(Loaded) PlayerLeft2.png
-(Loaded) PlayerForward3.png
-(Loaded) Wall.png
-(Loaded) blocks_ct2.png
-(Loaded) fire.dds
-(Loaded) door.png
 (Loaded) scroll.png
 (Loaded) Player.png
-(Loaded) PlayerForward2.png
+Second
+Second
 (Loaded) PlayerForward3.png
+Second
 (Loaded) PlayerForward1.png
-5
-(Loaded) Scroll5.png
-2
-(Loaded) PlayerRight2.png
-2
-2
-2
-2
-(Loaded) PlayerRight3.png
-2
-2
-2
-2
-2
-(Loaded) PlayerRight1.png
-2
-2
-2
-2
-2
-2
-(Loaded) PlayerLeft2.png
-(Loaded) PlayerLeft3.png
+Second
+Second
+Second
+(Loaded) PlayerForward2.png
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
 (Loaded) PlayerLeft1.png
+Second
+Second
+Second
+Second
+(Loaded) PlayerLeft2.png
+Second
+Second
+Second
+Second
+(Loaded) PlayerLeft3.png
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+(Loaded) PlayerRight1.png
+Second
+Second
+Second
+(Loaded) PlayerRight2.png
+Second
+Second
+Second
+(Loaded) PlayerRight3.png
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
-(Loaded) guardian1.png
 (Loaded) door.png
+(Loaded) guardian1.png
 (Loaded) scroll.png
 (Loaded) Player.png
-(Loaded) PlayerForward3.png
 (Loaded) PlayerForward1.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
 (Loaded) PlayerForward2.png
-4
-(Loaded) PlayerRight1.png
-4
-4
-4
-(Loaded) PlayerRight2.png
-4
-4
-4
-4
-4
-(Loaded) PlayerRight3.png
-4
-4
-4
-4
-(Loaded) PlayerLeft3.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+(Loaded) PlayerForward3.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
 (Loaded) PlayerLeft1.png
+Third
+SecondA
+First
+Third
+SecondA
+First
 (Loaded) PlayerLeft2.png
-4
-4
-4
-4
+Third
+SecondA
+First
+Third
+SecondA
+First
+(Loaded) PlayerLeft3.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+(Loaded) PlayerRight3.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+(Loaded) PlayerRight1.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
+(Loaded) scroll.png
 (Loaded) door.png
 (Loaded) Player.png
 (Loaded) PlayerForward1.png
+Second
+Second
 (Loaded) PlayerForward2.png
+Second
+Second
+Second
 (Loaded) PlayerForward3.png
-(Loaded) PlayerLeft1.png
-(Loaded) PlayerLeft2.png
-(Loaded) PlayerBack2.png
-(Loaded) PlayerBack3.png
+Second
+Second
+Second
+Second
+Second
 (Loaded) PlayerBack1.png
-1
-(Loaded) PlayerRight3.png
-1
-1
-1
-1
-1
-(Loaded) PlayerRight1.png
-1
-(Loaded) PlayerRight2.png
-1
-1
-1
-1
-1
-1
-(Loaded) PlayerLeft3.png
+Second
+Second
+Second
+(Loaded) PlayerBack2.png
+Second
+Second
+Second
+Second
+(Loaded) PlayerBack3.png
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
 (Loaded) fire.dds
-(Loaded) guardian1.png
 (Loaded) door.png
+(Loaded) guardian1.png
 (Loaded) scroll.png
 (Loaded) Player.png
 (Loaded) PlayerBack2.png
-(Loaded) PlayerForward3.png
+Third
+SecondA
+First
+(Loaded) PlayerBack3.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+(Loaded) PlayerBack1.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+(Loaded) door.png
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) scroll.png
+(Loaded) Player.png
+(Loaded) PlayerBack3.png
+Second
+Second
+Second
+Second
+Second
 (Loaded) PlayerForward1.png
+Second
+Second
+Second
 (Loaded) PlayerForward2.png
-4
-(Loaded) PlayerRight2.png
-4
-4
-(Loaded) PlayerRight3.png
-4
-4
-4
-4
-(Loaded) PlayerRight1.png
-4
-4
-4
-4
-4
-4
-4
-4
-(Loaded) PlayerLeft2.png
+Second
+Second
+Second
+Second
+(Loaded) PlayerForward3.png
 (Loaded) PlayerLeft3.png
+Second
+Second
+Second
+Second
 (Loaded) PlayerLeft1.png
+Second
+Second
+Second
+Second
+(Loaded) PlayerLeft2.png
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+(Loaded) PlayerRight1.png
+Second
+(Loaded) PlayerRight2.png
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) door.png
+(Loaded) guardian1.png
+(Loaded) scroll.png
+(Loaded) Player.png
+(Loaded) PlayerForward3.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+(Loaded) PlayerForward1.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+(Loaded) PlayerForward2.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+(Loaded) PlayerLeft3.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+(Loaded) PlayerLeft1.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+(Loaded) PlayerLeft2.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) scroll.png
+(Loaded) door.png
+(Loaded) Player.png
+(Loaded) PlayerForward3.png
+Second
+(Loaded) PlayerForward1.png
+Second
+Second
+Second
+Second
+(Loaded) PlayerForward2.png
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+(Loaded) PlayerBack1.png
+Second
+(Loaded) PlayerBack2.png
+Second
+Second
+Second
+(Loaded) PlayerBack3.png
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) door.png
+(Loaded) guardian1.png
+(Loaded) scroll.png
+(Loaded) Player.png
+(Loaded) PlayerBack2.png
+Third
+SecondA
+First
+(Loaded) PlayerBack3.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+(Loaded) PlayerBack1.png
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+Third
+SecondA
+First
+(Loaded) door.png
+(Loaded) Wall.png
+(Loaded) blocks_ct2.png
+(Loaded) fire.dds
+(Loaded) scroll.png
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second
+Second

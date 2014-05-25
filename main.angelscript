@@ -29,7 +29,7 @@ void setup() {
 	if(monsterDist > 0) {
 		id = AddEntity("Player.ent", vector3(540, 600, 20), 0);
 	} else {
-		LoadScene("scenes\\Dead.esc", "setup", "run");
+		LoadScene("scenes\\Death.esc", "setup", "run");
 	}
 	//SeekEntity(id).Scale(vector2(0.5f,0.5f));
 	/*ETHEntity@ door = SeekEntity("door.ent");

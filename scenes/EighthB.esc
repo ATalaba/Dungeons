@@ -221,39 +221,71 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="324" spriteFrame="0">
-            <EntityName>Floor.ent</EntityName>
-            <Position x="768" y="64" z="0" angle="0" />
-            <Entity>
-                <FileName>Floor.ent</FileName>
-                <CustomData />
-            </Entity>
-        </Entity>
-        <Entity id="325" spriteFrame="0">
+        <Entity id="421" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
-            <Position x="672" y="32" z="0" angle="0" />
+            <Position x="736" y="32" z="0" angle="0" />
             <Entity>
                 <FileName>Wall.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="326" spriteFrame="0">
+        <Entity id="422" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
-            <Position x="672" y="96" z="0" angle="0" />
+            <Position x="800" y="32" z="0" angle="0" />
             <Entity>
                 <FileName>Wall.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="327" spriteFrame="0">
+        <Entity id="423" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
-            <Position x="608" y="96" z="0" angle="0" />
+            <Position x="800" y="96" z="0" angle="0" />
             <Entity>
                 <FileName>Wall.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="328" spriteFrame="0">
+        <Entity id="425" spriteFrame="0">
+            <EntityName>Wall.ent</EntityName>
+            <Position x="736" y="96" z="0" angle="0" />
+            <Entity>
+                <FileName>Wall.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="426" spriteFrame="0">
+            <EntityName>Fire2.ent</EntityName>
+            <Position x="799" y="72" z="0" angle="0" />
+            <Entity>
+                <FileName>Fire2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="432" spriteFrame="0">
+            <EntityName>Wall.ent</EntityName>
+            <Position x="544" y="32" z="0" angle="0" />
+            <Entity>
+                <FileName>Wall.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="433" spriteFrame="0">
+            <EntityName>Wall.ent</EntityName>
+            <Position x="544" y="96" z="0" angle="0" />
+            <Entity>
+                <FileName>Wall.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="435" spriteFrame="0">
+            <EntityName>Fire2.ent</EntityName>
+            <Position x="516" y="60" z="0" angle="0" />
+            <Entity>
+                <FileName>Fire2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="441" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
             <Position x="608" y="32" z="0" angle="0" />
             <Entity>
@@ -261,86 +293,28 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="329" spriteFrame="0">
-            <EntityName>Floor.ent</EntityName>
-            <Position x="512" y="64" z="0" angle="0" />
+        <Entity id="442" spriteFrame="0">
+            <EntityName>Wall.ent</EntityName>
+            <Position x="672" y="32" z="0" angle="0" />
             <Entity>
-                <FileName>Floor.ent</FileName>
+                <FileName>Wall.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="336" spriteFrame="0">
-            <EntityName>Fire2.ent</EntityName>
-            <Position x="648" y="83" z="0" angle="0" />
+        <Entity id="443" spriteFrame="0">
+            <EntityName>Wall.ent</EntityName>
+            <Position x="672" y="96" z="0" angle="0" />
             <Entity>
-                <FileName>Fire2.ent</FileName>
+                <FileName>Wall.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="502" spriteFrame="0" shadowZ="0">
-            <EntityName>guardian1.ent</EntityName>
-            <Position x="512" y="256" z="0" angle="0" />
+        <Entity id="444" spriteFrame="0">
+            <EntityName>Wall.ent</EntityName>
+            <Position x="608" y="96" z="0" angle="0" />
             <Entity>
-                <FileName>guardian1.ent</FileName>
-                <CustomData>
-                    <Variable>
-                        <Type>string</Type>
-                        <Name>Message</Name>
-                        <Value>Quickly now! This way! It&apos;s coming!</Value>
-                    </Variable>
-                </CustomData>
-            </Entity>
-        </Entity>
-        <Entity id="503" spriteFrame="0" shadowZ="0">
-            <EntityName>guardian1.ent</EntityName>
-            <Position x="768" y="256" z="0" angle="0" />
-            <Entity>
-                <FileName>guardian1.ent</FileName>
-                <CustomData>
-                    <Variable>
-                        <Type>string</Type>
-                        <Name>Message</Name>
-                        <Value>Are you afraid to die?</Value>
-                    </Variable>
-                </CustomData>
-            </Entity>
-        </Entity>
-        <Entity id="586" spriteFrame="0">
-            <EntityName>door.ent</EntityName>
-            <Position x="512" y="20" z="0" angle="0" />
-            <Entity>
-                <FileName>door.ent</FileName>
-                <CustomData>
-                    <Variable>
-                        <Type>string</Type>
-                        <Name>Stage</Name>
-                        <Value>SeventhC</Value>
-                    </Variable>
-                    <Variable>
-                        <Type>int</Type>
-                        <Name>Unlocked</Name>
-                        <Value>0</Value>
-                    </Variable>
-                </CustomData>
-            </Entity>
-        </Entity>
-        <Entity id="587" spriteFrame="0">
-            <EntityName>door.ent</EntityName>
-            <Position x="768" y="20" z="0" angle="0" />
-            <Entity>
-                <FileName>door.ent</FileName>
-                <CustomData>
-                    <Variable>
-                        <Type>string</Type>
-                        <Name>Stage</Name>
-                        <Value>Eighth</Value>
-                    </Variable>
-                    <Variable>
-                        <Type>int</Type>
-                        <Name>Unlocked</Name>
-                        <Value>0</Value>
-                    </Variable>
-                </CustomData>
+                <FileName>Wall.ent</FileName>
+                <CustomData />
             </Entity>
         </Entity>
         <Entity id="49" spriteFrame="0">
@@ -511,25 +485,6 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="589" spriteFrame="0">
-            <EntityName>door.ent</EntityName>
-            <Position x="512" y="748" z="0" angle="0" />
-            <Entity>
-                <FileName>door.ent</FileName>
-                <CustomData>
-                    <Variable>
-                        <Type>string</Type>
-                        <Name>Stage</Name>
-                        <Value>Sixth</Value>
-                    </Variable>
-                    <Variable>
-                        <Type>int</Type>
-                        <Name>Unlocked</Name>
-                        <Value>0</Value>
-                    </Variable>
-                </CustomData>
-            </Entity>
-        </Entity>
         <Entity id="68" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
             <Position x="992" y="544" z="0" angle="0" />
@@ -698,12 +653,31 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="588" spriteFrame="0">
+        <Entity id="532" spriteFrame="0">
             <EntityName>Floor.ent</EntityName>
             <Position x="512" y="704" z="0" angle="0" />
             <Entity>
                 <FileName>Floor.ent</FileName>
                 <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="533" spriteFrame="0">
+            <EntityName>door.ent</EntityName>
+            <Position x="512" y="748" z="0" angle="0" />
+            <Entity>
+                <FileName>door.ent</FileName>
+                <CustomData>
+                    <Variable>
+                        <Type>string</Type>
+                        <Name>Stage</Name>
+                        <Value>Eighth</Value>
+                    </Variable>
+                    <Variable>
+                        <Type>int</Type>
+                        <Name>Unlocked</Name>
+                        <Value>0</Value>
+                    </Variable>
+                </CustomData>
             </Entity>
         </Entity>
         <Entity id="1" spriteFrame="0">
@@ -922,23 +896,63 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="330" spriteFrame="0">
+        <Entity id="417" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
-            <Position x="416" y="96" z="0" angle="0" />
+            <Position x="224" y="96" z="0" angle="0" />
             <Entity>
                 <FileName>Wall.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="331" spriteFrame="0">
+        <Entity id="418" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
-            <Position x="416" y="32" z="0" angle="0" />
+            <Position x="288" y="96" z="0" angle="0" />
             <Entity>
                 <FileName>Wall.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="332" spriteFrame="0">
+        <Entity id="419" spriteFrame="0">
+            <EntityName>Wall.ent</EntityName>
+            <Position x="224" y="32" z="0" angle="0" />
+            <Entity>
+                <FileName>Wall.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="420" spriteFrame="0">
+            <EntityName>Wall.ent</EntityName>
+            <Position x="288" y="32" z="0" angle="0" />
+            <Entity>
+                <FileName>Wall.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="427" spriteFrame="0">
+            <EntityName>Fire2.ent</EntityName>
+            <Position x="201" y="73" z="0" angle="0" />
+            <Entity>
+                <FileName>Fire2.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="431" spriteFrame="0">
+            <EntityName>Wall.ent</EntityName>
+            <Position x="480" y="32" z="0" angle="0" />
+            <Entity>
+                <FileName>Wall.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="434" spriteFrame="0">
+            <EntityName>Wall.ent</EntityName>
+            <Position x="480" y="96" z="0" angle="0" />
+            <Entity>
+                <FileName>Wall.ent</FileName>
+                <CustomData />
+            </Entity>
+        </Entity>
+        <Entity id="437" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
             <Position x="352" y="32" z="0" angle="0" />
             <Entity>
@@ -946,61 +960,28 @@
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="333" spriteFrame="0">
+        <Entity id="438" spriteFrame="0">
             <EntityName>Wall.ent</EntityName>
-            <Position x="352" y="96" z="0" angle="0" />
+            <Position x="416" y="32" z="0" angle="0" />
             <Entity>
                 <FileName>Wall.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="334" spriteFrame="0">
-            <EntityName>Floor.ent</EntityName>
-            <Position x="256" y="64" z="0" angle="0" />
+        <Entity id="439" spriteFrame="0">
+            <EntityName>Wall.ent</EntityName>
+            <Position x="416" y="96" z="0" angle="0" />
             <Entity>
-                <FileName>Floor.ent</FileName>
+                <FileName>Wall.ent</FileName>
                 <CustomData />
             </Entity>
         </Entity>
-        <Entity id="335" spriteFrame="0">
-            <EntityName>Fire2.ent</EntityName>
-            <Position x="389" y="76" z="0" angle="0" />
+        <Entity id="440" spriteFrame="0">
+            <EntityName>Wall.ent</EntityName>
+            <Position x="352" y="96" z="0" angle="0" />
             <Entity>
-                <FileName>Fire2.ent</FileName>
+                <FileName>Wall.ent</FileName>
                 <CustomData />
-            </Entity>
-        </Entity>
-        <Entity id="501" spriteFrame="0" shadowZ="0">
-            <EntityName>guardian3.ent</EntityName>
-            <Position x="256" y="256" z="0" angle="0" />
-            <Entity>
-                <FileName>guardian3.ent</FileName>
-                <CustomData>
-                    <Variable>
-                        <Type>string</Type>
-                        <Name>Message</Name>
-                        <Value>The path ahead might kill you.</Value>
-                    </Variable>
-                </CustomData>
-            </Entity>
-        </Entity>
-        <Entity id="585" spriteFrame="0">
-            <EntityName>door.ent</EntityName>
-            <Position x="256" y="20" z="0" angle="0" />
-            <Entity>
-                <FileName>door.ent</FileName>
-                <CustomData>
-                    <Variable>
-                        <Type>string</Type>
-                        <Name>Stage</Name>
-                        <Value>SeventhA</Value>
-                    </Variable>
-                    <Variable>
-                        <Type>int</Type>
-                        <Name>Unlocked</Name>
-                        <Value>0</Value>
-                    </Variable>
-                </CustomData>
             </Entity>
         </Entity>
     </EntitiesInScene>

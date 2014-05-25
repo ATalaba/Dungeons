@@ -2,12 +2,16 @@
 
 [WARN ] main.angelscript, line 63: Signed/Unsigned mismatch
 
-[WARN ] main.angelscript, line 67: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 88: Signed/Unsigned mismatch
 
-[WARN ] main.angelscript, line 79: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 92: Signed/Unsigned mismatch
 
-[WARN ] main.angelscript, line 86: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 102: Signed/Unsigned mismatch
 
-[WARN ] main.angelscript, line 91: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 115: Signed/Unsigned mismatch
 
-[WARN ] main.angelscript, line 98: Signed/Unsigned mismatch
+[WARN ] main.angelscript, line 122: Signed/Unsigned mismatch
+
+[WARN ] main.angelscript, line 127: Signed/Unsigned mismatch
+
+[WARN ] main.angelscript, line 140: Signed/Unsigned mismatch
