@@ -37,6 +37,7 @@ ETHInput@ input = GetInputHandle();
 	if ((input.KeyDown(K_D) or input.KeyDown(K_RIGHT)) and thisEntity.GetPositionX() < 872) {
 		thisEntity.AddToPositionX(5.0);
 	}
+<<<<<<< HEAD
 }
 
 class Object {
@@ -73,4 +74,3 @@ class TreeNode : Object {
       }	
 
 }	
-	
