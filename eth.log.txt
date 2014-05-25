@@ -8,5 +8,6 @@ Loading game script from source-code: main.angelscript
 Compile time: 0 milliseconds
 (Loaded) Wall.png
 (Loaded) blocks_ct2.png
-(Loaded) Fire.png
+(Loaded) fire.dds
+(Loaded) door.png
 (Loaded) Player.png
