@@ -7,6 +7,7 @@
 int id = 1;
 ETHEntityArray Doors;
 ETHEntityArray Guardians;
+ETHEntityArray Money;
 
 void main()
 {
@@ -27,6 +28,7 @@ void setup() {
 	GetEntityArray("guardian2.ent", Guardians);
 	GetEntityArray("guardian3.ent", Guardians);
 	GetEntityArray("guardian4.ent", Guardians);
+	GetEntityArray("coins.ent", Money);
 }
 
 void run() {	
@@ -45,7 +47,6 @@ ETHInput@ input = GetInputHandle();
 	}
 	if ((input.KeyDown(K_D) or input.KeyDown(K_RIGHT)) and thisEntity.GetPositionX() < 872) {
 		thisEntity.AddToPositionX(5.0);
-		print (Doors.Size());
 	}
 	for (int i = 0; i < Doors.Size(); i++) {
 		if (input.KeyDown(K_SPACE) and (thisEntity.GetPositionY() <= 155 or thisEntity.GetPositionY() > 655) and distance(vector2(thisEntity.GetPositionX(), 0), vector2(Doors[i].GetPositionX(),0)) <= 64) {
@@ -58,6 +59,14 @@ ETHInput@ input = GetInputHandle();
 			
 		}
 	}
+	for(int i = 0; i < Money.Size(); i++) {
+		if (distance(thisEntity.GetPositionXY(), Money[i].GetPositionXY()) < 40) {
+			DeleteEntity(Money[0]);
+			Money.RemoveDeadEntities();
+			thisEntity.SetInt("Money", thisEntity.GetInt("Money") + 100);
+        }
+		print(thisEntity.GetInt("Money"));
+    }		
 }
 
 /*class Object {
