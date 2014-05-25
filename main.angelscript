@@ -55,6 +55,9 @@ void run() {
 		}
 	}
 	
+	for (int i = 0; i < Doors.Size(); i++) {
+	    print(Doors[i].GetString("Stage"));
+	}	
 }
 
 void ETHCallback_Player(ETHEntity@ thisEntity) {
@@ -82,7 +85,7 @@ ETHInput@ input = GetInputHandle();
 			NiceScrolls.RemoveDeadEntities();
 		}
 		for (int i = 0; i < Doors.Size(); i++) {
-			if ((thisEntity.GetPositionY() <= 155 or thisEntity.GetPositionY() > 655) and distance(vector2(thisEntity.GetPositionX(), 0), vector2(Doors[i].GetPositionX(),0)) <= 64) {
+			if ((thisEntity.GetPositionY() <= 155 or thisEntity.GetPositionY() > 655) and distance(thisEntity.GetPositionXY(), Doors[i].GetPositionXY()) <= 150) {
 				if (Doors[i].GetInt("Unlocked") == 0) {
 					LoadScene("scenes\\" + Doors[i].GetString("Stage") + ".esc", "setup", "run");
 					/*
@@ -131,7 +134,7 @@ ETHInput@ input = GetInputHandle();
 		}
 	}
 	for (int m = 0; m < Scrolls.Size(); m++) {
-		if(distance(thisEntity.GetPositionXY(), Scrolls[m].GetPositionXY()) < 64) {
+		if(distance(thisEntity.GetPositionXY(), Scrolls[m].GetPositionXY()) < 30) {
 			print (Scrolls[m].GetString("Name"));
 			AddEntity("Scroll" + Scrolls[m].GetString("Name") + ".ent", vector3(508, 420 /*Blaze it*/, 100), 0);
 			GetEntityArray("Scroll" + Scrolls[m].GetString("Name") + ".ent", NiceScrolls);
